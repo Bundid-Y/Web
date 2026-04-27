@@ -8,7 +8,9 @@
     "product": "Products",
     "technology": "Technology",
     "branches": "Branches",
+    "contact_channels": "Contact Channels",
     "contact": "Contact Us",
+    "recruitment": "Open Positions",
     "login": "Login"
   },
   "nav_services": {

@@ -53,8 +53,17 @@
                         data-i18n="nav.technology">เทคโนโลยี</a></li>
                 <li class="nav-item"><a href="<?php echo $base; ?>main/news.php" class="nav-link"
                         data-i18n="nav.news">ข่าวและกิจกรรม</a></li>
-                <li class="nav-item"><a href="<?php echo $base; ?>main/contact.php" class="nav-link"
-                        data-i18n="nav.contact">ติดต่อเรา</a></li>
+                <li class="nav-item dropdown-item">
+                    <div class="nav-link dropdown-toggle"><span
+                            data-i18n="nav.contact_channels">ช่องทางการติดต่อ</span> <span
+                            class="arrow">▼</span></div>
+                    <ul class="dropdown-menu">
+                        <li><a href="<?php echo $base; ?>main/contact.php" class="dropdown-link"
+                                data-i18n="nav.contact">ติดต่อเรา</a></li>
+                        <li><a href="<?php echo $base; ?>main/recruitment.php" class="dropdown-link"
+                                data-i18n="nav.recruitment">ตำแหน่งที่เปิดรับสมัคร</a></li>
+                    </ul>
+                </li>
                 <!--<li class="nav-item"><a href="../main/contact.php" class="nav-link"
                             data-i18n="nav.contact_old">ติดต่อเรา</a></li>
                     -->

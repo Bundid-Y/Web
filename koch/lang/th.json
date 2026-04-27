@@ -8,7 +8,9 @@
     "product": "สินค้า",
     "technology": "เทคโนโลยี",
     "branches": "สาขา",
+    "contact_channels": "ช่องทางการติดต่อ",
     "contact": "ติดต่อเรา",
+    "recruitment": "ตำแหน่งที่เปิดรับสมัคร",
     "login": "Login"
   },
   "nav_services": {
