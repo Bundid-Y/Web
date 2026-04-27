@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /main/Login.php
+Disallow: /main/news_detail.php
+Allow: /
+Sitemap: https://tnb-logistics.com/sitemap.xml

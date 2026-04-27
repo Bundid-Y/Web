@@ -1,0 +1,29 @@
+# robots.txt for Koch Packaging and Packing Services Co.,Ltd
+# https://koch-packaging-services.com
+
+User-agent: *
+Allow: /
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Google Image
+User-agent: Googlebot-Image
+Allow: /
+
+# Facebook
+User-agent: facebookexternalhit
+Allow: /
+
+# Facebook
+User-agent: Facebot
+Allow: /
+
+# Prevent crawling of login page
+Disallow: /main/login.php
+
+# Prevent crawling of admin areas (if any)
+Disallow: /admin/
+
+Sitemap: https://koch-packaging-services.com/sitemap.xml

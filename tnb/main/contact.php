@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ติดต่อเรา | TNB Logistics</title>
+    <meta name="description" content="เราพร้อมให้คำปรึกษาและบริการด้านโลจิสติกส์แบบครบวงจร ทันสมัย และเครือข่ายจุดบริการยุทธศาสตร์ครอบคลุมพื้นที่สำคัญทางอุตสาหกรรมเพื่อรองรับความต้องการของลูกค้าอย่างมีประสิทธิภาพ ติดต่อสอบถามข้อมูลเพิ่มเติมได้ผ่านช่องทางด้านล่าง" />
+
+    <!-- Favicon -->
+        <!-- Google SEO -->
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://tnb-logistics.com/main/contact.php" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tnb-logistics.com/main/contact.php" />
+    <meta property="og:title" content="ติดต่อเรา | TNB Logistics" />
+    <meta property="og:description" content="เราพร้อมให้คำปรึกษาและบริการด้านโลจิสติกส์แบบครบวงจร ทันสมัย และเครือข่ายจุดบริการยุทธศาสตร์ครอบคลุมพื้นที่สำคัญทางอุตสาหกรรมเพื่อรองรับความต้องการของลูกค้าอย่างมีประสิทธิภาพ ติดต่อสอบถามข้อมูลเพิ่มเติมได้ผ่านช่องทางด้านล่าง" />
+    <meta property="og:image" content="https://tnb-logistics.com/img/company_logo/tnb_logo.webp" />
+    <meta property="og:site_name" content="TNB Logistics" />
+    <meta property="og:locale" content="th_TH" />
+
+    <link rel="icon" type="image/png" href="../img/company_logo/tnb_logo.webp" />
+    <script>window.TNB_DEPTH = '../';</script>
+
+    <!-- Custom CSS & JS -->
+    <!-- CSS ของหน้านี้อยู่ใน: css/style.css หัวข้อ "Branches Page" -->
+    
+    <!-- Google Fonts: Inter (EN) + Sarabun (TH) + Noto Sans SC (ZH) + Noto Sans JP (JP) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sarabun:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS & JS -->
+    <link rel="stylesheet" href="../css/style.css?v=<?php echo time(); ?>">
+    
+    <!-- Load i18n first, then other scripts -->
+    <script src="../js/i18n.js"></script>
+    <script src="../js/script.js?v=<?php echo time(); ?>"></script>
+</head>
+
+<!-- page-branches: ใช้ scope CSS ให้เฉพาะหน้านี้ ป้องกันไม่ให้กระทบหน้าอื่น -->
+
+<body class="page-branches">
+    <?php $depth = '../'; include '../component/menubar.php'; ?>
+
+    <!-- หัวข้อหลัก — Blue gradient header เหมือน technology.php -->
+    <div class="card-ui-header layout_padding">
+        <div class="container">
+            <h1 class="card-ui-main-title reveal" data-i18n="contact.title">ติดต่อเรา</h1>
+            <p class="card-ui-main-desc reveal reveal--delay-1" data-i18n="contact.subtitle">เราพร้อมให้คำปรึกษาและบริการด้านโลจิสติกส์แบบครบวงจร ทันสมัย และเครือข่ายจุดบริการยุทธศาสตร์ครอบคลุมพื้นที่สำคัญทางอุตสาหกรรมเพื่อรองรับความต้องการของลูกค้าอย่างมีประสิทธิภาพ ติดต่อสอบถามข้อมูลเพิ่มเติมได้ผ่านช่องทางด้านล่าง</p>
+        </div>
+    </div>
+    
+ <!-- เนื้อหาหลัก -->
+    <section class="contact-section">
+        <div class="container">
+
+            <!-- รายละเอียดการติดต่อ -->
+            <div class="contact-info-row">
+
+                <!-- ที่อยู่สำนักงาน -->
+                <div class="contact-item reveal reveal--delay-1">
+                    <div class="contact-icon">
+                        <!-- SVG แผนที่ -->
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                    </div>
+                    <div class="contact-text-group">
+                        <h4 data-i18n="contact.address_label">ที่อยู่สำนักงาน</h4>
+                        <p data-i18n="contact.address">18/2 หมู่ที่ 5 ตำบลเหมือง อำเภอเมืองชลบุรี จังหวัดชลบุรี 20130</p>
+                    </div>
+                </div>
+
+                <!-- ฝ่ายขาย -->
+                <div class="contact-item reveal reveal--delay-2">
+                    <div class="contact-icon">
+                        <!-- SVG โทรศัพท์ -->
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                    </div>
+                    <div class="contact-text-group">
+                        <h4 data-i18n="contact.phone_label">ติดต่อฝ่ายขาย</h4>
+                        <p>085-8799795<br>090-9542354</p>
+                    </div>
+                </div>
+
+                <!-- อีเมล -->
+                <div class="contact-item reveal reveal--delay-3">
+                    <div class="contact-icon">
+                        <!-- SVG อีเมล -->
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </div>
+                    <div class="contact-text-group">
+                        <h4 data-i18n="contact.email_label">อีเมล</h4>
+                        <p>wachira.o@tnb-logistics.com</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+        
+    <!-- เนื้อหาหลัก -->
+    <div class="branches-page">
+        <div class="branches-layout">
+
+            <!-- ส่วนแผนที่ (Sticky) -->
+            <div class="branches-image-section">
+                <div class="branches-image-wrapper" id="branch-map-container">
+                    <!-- Map will be loaded by JavaScript -->
+                </div>
+            </div>
+
+            <!-- ส่วนการ์ดสาขา -->
+            <div class="branches-cards-section">
+
+                <div class="branch-card reveal reveal--delay-1" data-branch="bangsaen" data-map-url="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1941.5823673197542!2d100.972431!3d13.277644!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102b5007148f2cf%3A0xfe03520168a8b47c!2sTNB%20Logistics!5e0!3m2!1sth!2sth!4v1772427453783!5m2!1sth!2sth">
+                    <h3 class="branch-card__name" data-i18n="branches.bangsaen_name">สาขาบางแสน (สำนักงานใหญ่)</h3>
+                    <p class="branch-card__desc" data-i18n="branches.bangsaen_desc">ศูนย์กลางการบริหารจัดการการขนส่งภายในประเทศ เป็นสำนักงานใหญ่ที่รวมศูนย์บัญชาการและประสานงานทุกสาขา (กดเพื่อดูที่อยู่)</p>
+                    <ul class="branch-card__services">
+                        <li>Domestic Transport</li>
+                        <li>Fleet Management</li>
+                        <li>HQ Operations</li>
+                    </ul>
+                </div>
+
+                <div class="branch-card reveal reveal--delay-2" data-branch="laemchabang" data-map-url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4433.973871895208!2d100.98898102323993!3d13.130790482165148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102c9004d55530f%3A0x335bb4b530f87de8!2sTNB%20Logistics%20Co.%2C%20Ltd!5e0!3m2!1sth!2sth!4v1775619485568!5m2!1sth!2sth">
+                    <h3 class="branch-card__name" data-i18n="branches.laemchabang_name">สาขาแหลมฉบัง</h3>
+                    <p class="branch-card__desc" data-i18n="branches.laemchabang_desc">ให้บริการจัดจองตู้คอนเทนเนอร์และพื้นที่ฝากวางตู้ (Container Drop Yard) เชื่อมต่อท่าเรือแหลมฉบังโดยตรง <br>(กดเพื่อดูที่อยู่)</p>
+                    <ul class="branch-card__services">
+                        <li>Container Yard</li>
+                        <li>Import/Export</li>
+                        <li>Port Linkage</li>
+                    </ul>
+                </div>
+
+                <!-- <div class="branch-card">
+                    <h3 class="branch-card__name" data-i18n="branches.bangkadi_name">สาขาบางกะดี</h3>
+                    <p class="branch-card__desc" data-i18n="branches.bangkadi_desc">เชี่ยวชาญการให้บริการรถ Shuttle รับ-ส่งสินค้าระหว่างคลังสินค้าและการจัดการตู้คอนเทนเนอร์ (กดเพื่อดูที่อยู่)</p>
+                    <ul class="branch-card__services">
+                        <li>Shuttle Service</li>
+                        <li>WH to WH</li>
+                        <li>Container Mgmt</li>
+                    </ul>
+                </div> -->
+
+                <div class="branch-card reveal reveal--delay-3" data-branch="latkrabang" data-map-url="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3875.8835142951084!2d100.79197927509041!3d13.757294986635225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTPCsDQ1JzI2LjMiTiAxMDDCsDQ3JzQwLjQiRQ!5e0!3m2!1sth!2sth!4v1775621030378!5m2!1sth!2sth"> 
+                    <h3 class="branch-card__name" data-i18n="branches.latkrabang_name">สาขาลาดกระบัง</h3>
+                    <p class="branch-card__desc" data-i18n="branches.latkrabang_desc">ศูนย์กระจายสินค้าและลานจอดรถขนาด 9,000 ตร.ม. ตั้งอยู่ใกล้กับ ICD เพื่อความรวดเร็วในการขนส่ง (กดเพื่อดูที่อยู่)</p>
+                    <ul class="branch-card__services">
+                        <li>Distribution Center</li>
+                        <li>9,000 sqm Yard</li>
+                        <li>Near ICD</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <?php $depth = '../'; include '../component/footer.php'; ?>
+</body>
+
+</html>
