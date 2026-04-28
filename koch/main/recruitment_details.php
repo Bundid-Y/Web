@@ -262,16 +262,6 @@
 
             <aside class="detail-sidebar">
                 <div class="sidebar-block">
-                    <h2 class="sidebar-title">ตำแหน่งงาน</h2>
-                    <ul class="position-links">
-                        <li><a href="?job=purchasing-manager" data-target="purchasing-manager">Purchasing Assistant Manager / Manager</a></li>
-                        <li><a href="?job=secretary-to-ceo" data-target="secretary-to-ceo">Secretary to CEO (Executive Strategic Coordinator)</a></li>
-                        <li><a href="?job=truck-mechanic" data-target="truck-mechanic">ช่างยนต์ และ ช่างไฟ (รถบรรทุก & รถหัวลาก)</a></li>
-                        <li><a href="?job=cost-accounting-supervisor" data-target="cost-accounting-supervisor">นักบัญชีและตรวจสอบต้นทุน - Supervisor / Assistant Manager</a></li>
-                        <li><a href="?job=sales-engineer" data-target="sales-engineer">Sales Engineer - Supply Chain Management</a></li>
-                    </ul>
-                </div>
-                <div class="sidebar-block">
                     <h2 class="sidebar-title">ติดต่อสมัครงาน</h2>
                     <p class="contact-lines">
                         ฝ่ายทรัพยากรบุคคล<br>
