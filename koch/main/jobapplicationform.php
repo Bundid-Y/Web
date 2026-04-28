@@ -106,7 +106,6 @@
 
     <header class="application-hero">
         <div class="application-wrap">
-            <p class="application-kicker">Job Application</p>
             <h1 class="application-title">กรอกใบสมัคร</h1>
             <p class="application-summary">ส่งข้อมูลเบื้องต้นเพื่อสมัครงานกับ Koch Packaging and Packing Services Co., Ltd. ทีมทรัพยากรบุคคลจะติดต่อกลับตามช่องทางที่ระบุไว้</p>
         </div>
