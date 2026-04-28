@@ -126,7 +126,7 @@ $job = [
                     <p class="contact-lines">ส่งประวัติส่วนตัว สำเนาใบอนุญาตขับขี่ และเอกสารประกอบการสมัครมายังฝ่ายบุคคล หรือสอบถามรายละเอียดเพิ่มเติมผ่านช่องทางติดต่อของบริษัท</p>
                 </div>
                 <div class="sidebar-block">
-                    <a class="detail-btn" href="../main/contact.php">กรอกใบสมัคร</a>
+                    <a class="detail-btn" href="../main/jobapplicationform.php">กรอกใบสมัคร</a>
                     <a class="detail-btn detail-btn--light" href="../main/recruitment.php">กลับหน้าตำแหน่งงาน</a>
                 </div>
             </aside>

@@ -204,7 +204,7 @@
                     </ul>
                 </div>
                 <div class="sidebar-block">
-                    <a class="career-btn" href="../main/contact.php">กรอกใบสมัคร</a>
+                    <a class="career-btn" href="../main/jobapplicationform.php">กรอกใบสมัคร</a>
                 </div>
             </aside>
         </div>

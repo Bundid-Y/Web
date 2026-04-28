@@ -196,7 +196,7 @@ $job = $jobs[$jobKey] ?? reset($jobs);
                     <p class="contact-lines">ส่งประวัติส่วนตัว ผลงาน หรือเอกสารประกอบการสมัครมายังฝ่ายบุคคล แล้วทีมงานจะติดต่อกลับเมื่อตรงกับคุณสมบัติ</p>
                 </div>
                 <div class="sidebar-block">
-                    <a class="detail-btn" href="../main/contact.php">กรอกใบสมัคร</a>
+                    <a class="detail-btn" href="../main/jobapplicationform.php">กรอกใบสมัคร</a>
                     <a class="detail-btn detail-btn--light" href="../main/recruitment.php">กลับหน้าตำแหน่งงาน</a>
                 </div>
             </aside>

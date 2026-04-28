@@ -144,7 +144,7 @@
                         <h2 class="career-heading">ข้อมูลบริษัท</h2>
                     </div>
                     <p class="company-copy">
-                        KOCH ให้บริการตั้งแต่ออกแบบบรรจุภัณฑ์ จัดหาวัตถุดิบ ผลิต ประกอบ ควบคุมคุณภาพ
+                        Koch ให้บริการตั้งแต่ออกแบบบรรจุภัณฑ์ จัดหาวัตถุดิบ ผลิต ประกอบ ควบคุมคุณภาพ
                         บริหารคลังสินค้า จนถึง In-plant Logistics รองรับอุตสาหกรรมยานยนต์ อิเล็กทรอนิกส์
                         และสินค้าอุตสาหกรรมชั้นนำ โดยมุ่งเน้น Automation, Smart Manufacturing และ Data Driven Operations
                     </p>
@@ -251,7 +251,7 @@
                     </ul>
                 </div>
                 <div class="sidebar-block">
-                    <a class="career-btn" href="../main/contact.php">กรอกใบสมัคร</a>
+                    <a class="career-btn" href="../main/jobapplicationform.php">กรอกใบสมัคร</a>
                 </div>
             </aside>
         </div>
