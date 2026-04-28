@@ -53,9 +53,7 @@
             border: 1px solid #e7eaf0;
             border-radius: 8px;
             box-shadow: 0 16px 42px rgba(18, 31, 53, .06);
-            max-height: calc(100vh - 128px);
-            overflow-y: auto;
-            overflow-x: hidden;
+            overflow: hidden;
         }
         .sidebar-block { padding: 22px; border-bottom: 1px solid #e7eaf0; }
         .sidebar-block:last-child { border-bottom: 0; }
@@ -81,7 +79,7 @@
         .job-detail[hidden] { display: none; }
         @media (max-width: 900px) {
             .detail-grid, .detail-summary { grid-template-columns: 1fr; }
-            .detail-sidebar { position: static; max-height: none; overflow: visible; }
+            .detail-sidebar { position: static; }
         }
         @media (max-width: 640px) {
             .detail-hero { padding-top: 112px; }
@@ -167,6 +165,36 @@
                             <li>สามารถใช้โปรแกรมสำนักงานและจัดทำรายงานได้ดี</li>
                             <li>มีความรับผิดชอบ ทำงานภายใต้เวลาที่กำหนด และแก้ไขปัญหาเฉพาะหน้าได้</li>
                             <li>มีประสบการณ์บริหารทีมขนส่งจะพิจารณาเป็นพิเศษ</li>
+                        </ol>
+                    </section>
+                </article>
+
+                <article class="job-detail" id="truck-mechanic" data-title="ช่างยนต์ และ ช่างไฟ (รถบรรทุก & รถหัวลาก)">
+                    <section class="detail-card">
+                        <h2 class="detail-heading">สรุปตำแหน่งงาน</h2>
+                        <div class="detail-summary">
+                            <div class="summary-item"><span>สถานที่ปฏิบัติงาน</span><strong>อ.ศรีราชา จ.ชลบุรี</strong></div>
+                            <div class="summary-item"><span>เงินเดือน</span><strong>ตามตกลง</strong></div>
+                            <div class="summary-item"><span>อัตรา</span><strong>2</strong></div>
+                            <div class="summary-item"><span>ประเภทงาน</span><strong>ช่างเทคนิค</strong></div>
+                        </div>
+                    </section>
+                    <section class="detail-card">
+                        <h2 class="detail-heading">รายละเอียดงาน</h2>
+                        <ol class="detail-list">
+                            <li>ตรวจสอบการซ่อมบำรุงรถบรรทุกและรถหัวลาก</li>
+                            <li>ประสานงานการซ่อมตามระยะเวลาและติดตามสถานะงานซ่อม</li>
+                            <li>ควบคุมค่าใช้จ่ายด้านซ่อมบำรุงให้อยู่ในกรอบที่กำหนด</li>
+                        </ol>
+                    </section>
+                    <section class="detail-card">
+                        <h2 class="detail-heading">คุณสมบัติผู้สมัคร</h2>
+                        <ol class="detail-list">
+                            <li>เพศชาย อายุ 30-45 ปี</li>
+                            <li>มีประสบการณ์การบำรุงรักษารถ 6W / Trailer</li>
+                            <li>มีความรับผิดชอบ ขยัน และอดทนต่องาน</li>
+                            <li>สามารถรับแรงกดดันและแก้ปัญหาเฉพาะหน้าได้ดี</li>
+                            <li>สามารถเริ่มงานได้ทันทีจะพิจารณาเป็นพิเศษ</li>
                         </ol>
                     </section>
                 </article>

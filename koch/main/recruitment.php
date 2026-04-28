@@ -144,7 +144,7 @@
                         <h2 class="career-heading">ข้อมูลบริษัท</h2>
                     </div>
                     <p class="company-copy">
-                        Koch ให้บริการตั้งแต่ออกแบบบรรจุภัณฑ์ จัดหาวัตถุดิบ ผลิต ประกอบ ควบคุมคุณภาพ
+                        Koch Packaging and Packing Services Co., Ltd.ให้บริการตั้งแต่ออกแบบบรรจุภัณฑ์ จัดหาวัตถุดิบ ผลิต ประกอบ ควบคุมคุณภาพ
                         บริหารคลังสินค้า จนถึง In-plant Logistics รองรับอุตสาหกรรมยานยนต์ อิเล็กทรอนิกส์
                         และสินค้าอุตสาหกรรมชั้นนำ โดยมุ่งเน้น Automation, Smart Manufacturing และ Data Driven Operations
                     </p>
@@ -172,9 +172,6 @@
                         <article class="job-card">
                             <div>
                                 <h3 class="job-card__title">Purchasing Assistant Manager / Manager</h3>
-                                <ul class="job-meta">
-                                    <li>วางแผนและบริหารงานจัดซื้อให้สอดคล้องกับความต้องการของฝ่ายผลิตและคลังสินค้า</li>
-                                </ul>
                             </div>
                             <div class="job-action">
                                 <a class="career-btn" href="../main/recruitment_details.php?job=purchasing-manager">รายละเอียด</a>
@@ -183,51 +180,22 @@
 
                         <article class="job-card">
                             <div>
-                                <h3 class="job-card__title">Secretary to CEO (Executive Strategic Coordinator)</h3>
-                                <ul class="job-meta">
-                                    <li>ดูแลและบริหารงานธุรการประสานงานผู้บริหารระดับสูง</li>
-                                </ul>
+                                <h3 class="job-card__title">Strategic Planning (CEO Office)</h3>
                             </div>
                             <div class="job-action">
-                                <a class="career-btn" href="../main/recruitment_details.php?job=secretary-to-ceo">รายละเอียด</a>
-                            </div>
-                        </article>
-
-                        <article class="job-card">
-                            <div>
-                                <h3 class="job-card__title">ช่างยนต์ และ ช่างไฟ (รถบรรทุก & รถหัวลาก)</h3>
-                                <ul class="job-meta">
-                                    <li>ซ่อมบำรุงรถบรรทุกและรถหัวลาก</li>
-                                </ul>
-                            </div>
-                            <div class="job-action">
-                                <a class="career-btn" href="../main/recruitment_details.php?job=truck-mechanic">รายละเอียด</a>
+                                <a class="career-btn" href="../main/recruitment_details.php?job=strategic-planning">รายละเอียด</a>
                             </div>
                         </article>
 
                         <article class="job-card">
                             <div>
                                 <h3 class="job-card__title">QA/QC Staff - Packaging ( เหมือง,ชลบุรี 1 ตำแหน่ง / Eastern Seaboard 1 ตำแหน่ง)</h3>
-                                <ul class="job-meta">
-                                    <li>ตรวจสอบคุณภาพทั้งกระบวนการ (RM, WIP, FG)</li>
-                                </ul>
                             </div>
                             <div class="job-action">
                                 <a class="career-btn" href="../main/recruitment_details.php?job=qa-qc-staff-packaging">รายละเอียด</a>
                             </div>
                         </article>
 
-                        <article class="job-card">
-                            <div>
-                                <h3 class="job-card__title">CS Transportation / Manager Transportation</h3>
-                                <ul class="job-meta">
-                                    <li>ติดต่อประสานพนักงานขับรถ Trailer, 6W, 4WJ</li>
-                                </ul>
-                            </div>
-                            <div class="job-action">
-                                <a class="career-btn" href="../main/recruitment_details.php?job=cs-transportation">รายละเอียด</a>
-                            </div>
-                        </article>
                     </div>
                 </section>
             </div>

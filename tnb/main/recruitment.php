@@ -101,7 +101,7 @@
         .career-btn--light { background: #fff; color: var(--career-primary); }
         .career-btn--light:hover { background: var(--career-soft); color: var(--career-dark); }
         .career-sidebar .career-btn { width: 100%; box-sizing: border-box; }
-        .career-sidebar { position: sticky; top: 104px; max-height: calc(100vh - 128px); overflow-y: auto; overflow-x: hidden; }
+        .career-sidebar { position: sticky; top: 104px; overflow: hidden; }
         .sidebar-block { padding: 22px; border-bottom: 1px solid #e7eaf0; }
         .sidebar-block:last-child { border-bottom: 0; }
         .sidebar-title { margin: 0 0 12px; font-size: 18px; font-weight: 800; }
@@ -111,7 +111,7 @@
         .step-list span { width: 28px; height: 28px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; background: var(--career-soft); color: var(--career-primary); font-weight: 800; font-size: 13px; }
         @media (max-width: 900px) {
             .career-grid { grid-template-columns: 1fr; }
-            .career-sidebar { position: static; max-height: none; overflow: visible; }
+            .career-sidebar { position: static; }
         }
         @media (max-width: 640px) {
             .career-hero { padding-top: 96px; }
@@ -186,6 +186,14 @@
                             </div>
                             <div class="job-action">
                                 <a class="career-btn" href="../main/recruitment_details.php?job=cs-transportation">รายละเอียด</a>
+                            </div>
+                        </article>
+                        <article class="job-card">
+                            <div>
+                                <h3 class="job-card__title">ช่างยนต์ และ ช่างไฟ (รถบรรทุก & รถหัวลาก)</h3>
+                            </div>
+                            <div class="job-action">
+                                <a class="career-btn" href="../main/recruitment_details.php?job=truck-mechanic">รายละเอียด</a>
                             </div>
                         </article>
                     </div>

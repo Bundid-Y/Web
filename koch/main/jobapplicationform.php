@@ -122,10 +122,8 @@
                             <select id="position" name="position" required>
                                 <option value="">เลือกตำแหน่ง</option>
                                 <option>Purchasing Assistant Manager / Manager</option>
-                                <option>Secretary to CEO (Executive Strategic Coordinator)</option>
-                                <option>ช่างยนต์ และ ช่างไฟ (รถบรรทุก & รถหัวลาก)</option>
-                                <option>นักบัญชีและตรวจสอบต้นทุน - Supervisor / Assistant Manager</option>
-                                <option>Sales Engineer - Supply Chain Management</option>
+                                <option>Strategic Planning (CEO Office)</option>
+                                <option>QA/QC Staff - Packaging</option>
                             </select>
                         </div>
                         <div class="form-field">
@@ -153,7 +151,7 @@
                             <textarea id="address" name="address"></textarea>
                         </div>
                         <div class="form-field form-field--full">
-                            <label for="experience">ประสบการณ์ทำงาน</label>
+                            <label for="experience">แนะนำตัวตนของคุณ</label>
                             <textarea id="experience" name="experience"></textarea>
                         </div>
                         <div class="form-field form-field--full">
@@ -162,7 +160,6 @@
                         </div>
                     </div>
                     <button class="application-btn" type="submit">ส่งใบสมัคร</button>
-                    <p class="application-note">หมายเหตุ: แบบฟอร์มนี้ใช้สำหรับจัดเตรียมหน้ารับสมัครงานบนเว็บไซต์ หากต้องการเชื่อมต่อระบบส่งข้อมูลจริงสามารถเพิ่ม backend ภายหลังได้</p>
                 </form>
             </section>
 

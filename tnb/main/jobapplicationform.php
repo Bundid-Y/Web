@@ -122,6 +122,8 @@
                             <select id="position" name="position" required>
                                 <option value="">เลือกตำแหน่ง</option>
                                 <option>พนักงานขับรถบรรทุก / รถหัวลาก</option>
+                                <option>CS Transportation / Manager Transportation</option>
+                                <option>ช่างยนต์ และ ช่างไฟ (รถบรรทุก & รถหัวลาก)</option>
                             </select>
                         </div>
                         <div class="form-field">
