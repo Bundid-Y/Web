@@ -83,6 +83,18 @@
         }
         .application-btn:hover { background: var(--app-dark); color: #fff; }
         .application-note { margin: 0; color: var(--app-muted); line-height: 1.8; font-size: 14px; }
+        .consent-field {
+            display: grid;
+            grid-template-columns: 18px 1fr;
+            gap: 10px;
+            align-items: start;
+        }
+        .consent-field input {
+            width: 18px;
+            height: 18px;
+            margin-top: 5px;
+            accent-color: var(--app-primary);
+        }
         .application-side { position: sticky; top: 104px; overflow: hidden; }
         .side-block { padding: 22px; border-bottom: 1px solid #e7eaf0; }
         .side-block:last-child { border-bottom: 0; }
@@ -159,6 +171,10 @@
                             <input id="resume" name="resume" type="file" accept=".pdf,.doc,.docx,.jpg,.jpeg,.png">
                         </div>
                     </div>
+                    <label class="consent-field" for="privacy-consent">
+                        <input id="privacy-consent" name="privacy_consent" type="checkbox" required>
+                        <p class="application-note">ข้าพเจ้าให้ความยินยอมแก่ บริษัท Koch Packaging and Packing Services Co., Ltd. ในการเก็บ และใช้ ข้อมูลส่วนบุคคล ของข้าพเจ้าเพื่อติดต่อกลับข้าพเจ้า หรือส่งต่อไปยังผู้เกี่ยวข้องเพื่อดำเนินการตามวัตถุประสงค์ *</p>
+                    </label>
                     <button class="application-btn" type="submit">ส่งใบสมัคร</button>
                 </form>
             </section>
