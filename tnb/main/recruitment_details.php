@@ -72,6 +72,7 @@ $job = [
         .detail-btn:hover { background:var(--career-dark); color:#fff; }
         .detail-btn--light { background:#fff; color:var(--career-primary); margin-top:10px; }
         .detail-btn--light:hover { background:var(--career-soft); color:var(--career-dark); }
+        .detail-sidebar .detail-btn { width:100%; box-sizing:border-box; }
         @media (max-width:900px) { .detail-grid,.detail-summary { grid-template-columns:1fr; } .detail-sidebar { position:static; } }
         @media (max-width:640px) { .detail-hero { padding-top:112px; } .detail-title { font-size:28px; } .detail-card { padding:20px; } }
     </style>
@@ -125,6 +126,7 @@ $job = [
                     <p class="contact-lines">ส่งประวัติส่วนตัว สำเนาใบอนุญาตขับขี่ และเอกสารประกอบการสมัครมายังฝ่ายบุคคล หรือสอบถามรายละเอียดเพิ่มเติมผ่านช่องทางติดต่อของบริษัท</p>
                 </div>
                 <div class="sidebar-block">
+                    <a class="detail-btn" href="../main/contact.php">กรอกใบสมัคร</a>
                     <a class="detail-btn detail-btn--light" href="../main/recruitment.php">กลับหน้าตำแหน่งงาน</a>
                 </div>
             </aside>

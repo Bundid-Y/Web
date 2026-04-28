@@ -97,6 +97,7 @@
         .career-btn:hover { background: var(--career-dark); color: #fff; }
         .career-btn--light { background: #fff; color: var(--career-primary); }
         .career-btn--light:hover { background: var(--career-soft); color: var(--career-dark); }
+        .career-sidebar .career-btn { width: 100%; box-sizing: border-box; }
         .career-sidebar { position: sticky; top: 104px; overflow: hidden; }
         .sidebar-block { padding: 22px; border-bottom: 1px solid #e7eaf0; }
         .sidebar-block:last-child { border-bottom: 0; }
@@ -250,6 +251,7 @@
                     </ul>
                 </div>
                 <div class="sidebar-block">
+                    <a class="career-btn" href="../main/contact.php">กรอกใบสมัคร</a>
                 </div>
             </aside>
         </div>
