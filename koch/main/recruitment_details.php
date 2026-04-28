@@ -124,7 +124,7 @@
                         <div class="detail-summary">
                             <div class="summary-item"><span>สถานที่ปฏิบัติงาน</span><strong>อ.เมืองชลบุรี จ.ชลบุรี</strong></div>
                             <div class="summary-item"><span>เงินเดือน</span><strong>ตามโครงสร้างบริษัทฯ</strong></div>
-                            <div class="summary-item"><span>อัตรา</span><strong>ไม่ระบุ</strong></div>
+                            <div class="summary-item"><span>อัตรา</span><strong>2</strong></div>
                             <div class="summary-item"><span>ประเภทงาน</span><strong>จัดซื้อ / Supply Chain</strong></div>
                         </div>
                     </section>
@@ -163,7 +163,7 @@
                         <div class="detail-summary">
                             <div class="summary-item"><span>สถานที่ปฏิบัติงาน</span><strong>จ.ชลบุรี</strong></div>
                             <div class="summary-item"><span>เงินเดือน</span><strong>ตามตกลง</strong></div>
-                            <div class="summary-item"><span>อัตรา</span><strong>ไม่ระบุ</strong></div>
+                            <div class="summary-item"><span>อัตรา</span><strong>4</strong></div>
                             <div class="summary-item"><span>ประเภทงาน</span><strong>บริหาร / ประสานงานผู้บริหาร</strong></div>
                         </div>
                     </section>
@@ -212,8 +212,8 @@
                         <div class="detail-summary">
                             <div class="summary-item"><span>สถานที่ปฏิบัติงาน</span><strong>อ.ศรีราชา จ.ชลบุรี</strong></div>
                             <div class="summary-item"><span>เงินเดือน</span><strong>ตามตกลง</strong></div>
-                            <div class="summary-item"><span>อัตรา</span><strong>2 อัตรา</strong></div>
-                            <div class="summary-item"><span>ประเภทงาน</span><strong>ช่างเทคนิค / Fleet Maintenance</strong></div>
+                            <div class="summary-item"><span>อัตรา</span><strong>2</strong></div>
+                            <div class="summary-item"><span>ประเภทงาน</span><strong>ช่างเทคนิค</strong></div>
                         </div>
                     </section>
                     <section class="detail-card">
@@ -236,13 +236,13 @@
                     </section>
                 </article>
 
-                <article class="job-detail" id="cost-accounting-supervisor" data-title="QA/QC Staff - Packaging">
+                <article class="job-detail" id="qa-qc-staff-packaging" data-title="QA/QC Staff - Packaging">
                     <section class="detail-card">
                         <h2 class="detail-heading">สรุปตำแหน่งงาน</h2>
                         <div class="detail-summary">
                             <div class="summary-item"><span>สถานที่ปฏิบัติงาน</span><strong>เหมือง,ชลบุรี</strong></div>
                             <div class="summary-item"><span>เงินเดือน</span><strong>ตามประสบการณ์</strong></div>
-                            <div class="summary-item"><span>อัตรา</span><strong>1 ตำแหน่ง / Eastern Seaboard 1 ตำแหน่ง</strong></div>
+                            <div class="summary-item"><span>อัตรา</span><strong>2</strong></div>
                             <div class="summary-item"><span>ประเภทงาน</span><strong>QA/QC Staff - Packaging</strong></div>
                         </div>
                     </section>
@@ -264,37 +264,44 @@
                         </ol>
                     </section>
                 </article>
-
-                <article class="job-detail" id="sales-engineer" data-title="Sales Engineer - Supply Chain Management">
+                
+                <article class="job-detail" id="cs-transportation" data-title="CS Transportation / Manager Transportation">
                     <section class="detail-card">
                         <h2 class="detail-heading">สรุปตำแหน่งงาน</h2>
                         <div class="detail-summary">
                             <div class="summary-item"><span>สถานที่ปฏิบัติงาน</span><strong>อ.เมืองชลบุรี จ.ชลบุรี</strong></div>
                             <div class="summary-item"><span>เงินเดือน</span><strong>ตามประสบการณ์</strong></div>
-                            <div class="summary-item"><span>อัตรา</span><strong>ไม่ระบุ</strong></div>
-                            <div class="summary-item"><span>ประเภทงาน</span><strong>ขาย / วิศวกรรม</strong></div>
+                            <div class="summary-item"><span>อัตรา</span><strong>อย่างละ 1 ตำแหน่ง</strong></div>
+                            <div class="summary-item"><span>ประเภทงาน</span><strong>CS Transportation</strong></div>
                         </div>
                     </section>
                     <section class="detail-card">
                         <h2 class="detail-heading">รายละเอียดงาน</h2>
                         <ol class="detail-list">
-                            <li>เข้าพบลูกค้าใหม่ เพื่อสร้างสัมพันธภาพ</li>
-                            <li>ทำใบเสนอราคา และเอกสารอื่นๆ ที่เกี่ยวข้องของงานขาย</li>
-                            <li>บริหารยอดขายให้เป็นไปตามที่กำหนด</li>
+                            <li>ติดต่อประสานพนักงานขับรถ Trailer, 6W, 4WJ</li>
+                            <li>วางแผนการจัดรถ</li>
+                            <li>แก้ปัญหาเฉพาะหน้าได้ดี</li>
+                            <li>สามารถเข้ากะ หรือสลับกะได้</li>
                             <li>งานอื่นๆ ที่ได้รับมอบหมาย</li>
                         </ol>
                     </section>
                     <section class="detail-card">
                         <h2 class="detail-heading">คุณสมบัติผู้สมัคร</h2>
                         <ol class="detail-list">
-                            <li>เพศชาย/หญิง อายุ 25-35 ปี</li>
-                            <li>จบการศึกษาระดิบปริญญาตรี สาขาวิศวกรรม</li>
-                            <li>มีประสบการณ์งานขาย B2B อย่างน้อย 2 ปี</li>
-                            <li>มีความรู้ด้านการออกแบบบรรจุภัณฑ์, กล่องกระดาษลูกฟูก จะพิจารณาเป็นพิเศษ</li>
-                            <li>มีรถยนต์สำหรับเดินทาง และใบอนุญาตขับขี่</li>
+                            <li>เพศ : ชาย</li>
+                            <li>อายุ(ปี) : 25 - 35</li>
+                            <li>ระดับการศึกษา : ปริญญาตรี โลจิสติกส์ หรืออื่นๆ ที่เกี่ยวข้อง</li>
+                            <li>ประสบการณ์(ปี) : อย่างน้อย 2 ปี</li>
+                            <li>มีความละเอียดรอบครอบ</li>
+                            <li>สามารถใช้ Microsoft Office ได้ดี</li>
+                            <li>สามารถรับแรงกดดันดี</li>
+                            <li>หากมีประสบการณ์จะพิจาณาเป็นพิเศษ</li>
+                            <li>สามารถเริ่มงานได้ทันที</li>
+                            <li>วิเคราะห์ปัญหา อุปสรรค และแนวทางแก้ไขปรับปรุง เพื่อให้คล่องตัวและมีประสิทธิภาพสูงสุด</li>
                         </ol>
                     </section>
                 </article>
+                
             </div>
 
             <aside class="detail-sidebar">

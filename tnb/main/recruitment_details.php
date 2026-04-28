@@ -53,7 +53,9 @@
             border: 1px solid #e7eaf0;
             border-radius: 8px;
             box-shadow: 0 16px 42px rgba(18, 31, 53, .06);
-            overflow: hidden;
+            max-height: calc(100vh - 128px);
+            overflow-y: auto;
+            overflow-x: hidden;
         }
         .sidebar-block { padding: 22px; border-bottom: 1px solid #e7eaf0; }
         .sidebar-block:last-child { border-bottom: 0; }
@@ -76,9 +78,10 @@
         .detail-btn--light { background: #fff; color: var(--career-primary); margin-top: 10px; }
         .detail-btn--light:hover { background: var(--career-soft); color: var(--career-dark); }
         .detail-sidebar .detail-btn { width: 100%; box-sizing: border-box; }
+        .job-detail[hidden] { display: none; }
         @media (max-width: 900px) {
             .detail-grid, .detail-summary { grid-template-columns: 1fr; }
-            .detail-sidebar { position: static; }
+            .detail-sidebar { position: static; max-height: none; overflow: visible; }
         }
         @media (max-width: 640px) {
             .detail-hero { padding-top: 112px; }
@@ -93,44 +96,80 @@
 
     <header class="detail-hero">
         <div class="detail-wrap">
-            <h1 class="detail-title">พนักงานขับรถบรรทุก / รถหัวลาก</h1>
+            <h1 class="detail-title" id="hero-title">พนักงานขับรถบรรทุก / รถหัวลาก</h1>
         </div>
     </header>
 
     <main class="detail-main">
         <div class="detail-wrap detail-grid">
             <div>
-                <section class="detail-card">
-                    <h2 class="detail-heading">สรุปตำแหน่งงาน</h2>
-                    <div class="detail-summary">
-                        <div class="summary-item"><span>สถานที่ปฏิบัติงาน</span><strong>ชลบุรี และพื้นที่ให้บริการ</strong></div>
-                        <div class="summary-item"><span>เงินเดือน</span><strong>ตามประสบการณ์</strong></div>
-                        <div class="summary-item"><span>อัตรา</span><strong>เปิดรับสมัคร</strong></div>
-                        <div class="summary-item"><span>ประเภทงาน</span><strong>Transport Operations</strong></div>
-                    </div>
-                </section>
+                <article class="job-detail" id="truck-driver" data-title="พนักงานขับรถบรรทุก / รถหัวลาก">
+                    <section class="detail-card">
+                        <h2 class="detail-heading">สรุปตำแหน่งงาน</h2>
+                        <div class="detail-summary">
+                            <div class="summary-item"><span>สถานที่ปฏิบัติงาน</span><strong>ชลบุรี และพื้นที่ให้บริการ</strong></div>
+                            <div class="summary-item"><span>เงินเดือน</span><strong>ตามประสบการณ์</strong></div>
+                            <div class="summary-item"><span>อัตรา</span><strong>เปิดรับสมัคร</strong></div>
+                            <div class="summary-item"><span>ประเภทงาน</span><strong>Transport Operations</strong></div>
+                        </div>
+                    </section>
 
-                <section class="detail-card">
-                    <h2 class="detail-heading">รายละเอียดงาน</h2>
-                    <ol class="detail-list">
-                        <li>ขับรถบรรทุกหรือรถหัวลากตามแผนงานขนส่งของบริษัท</li>
-                        <li>ตรวจเช็กสภาพรถเบื้องต้นก่อนและหลังปฏิบัติงาน</li>
-                        <li>ดูแลความปลอดภัยของสินค้า รถ และเอกสารประกอบการขนส่ง</li>
-                        <li>ประสานงานกับทีมปฏิบัติการเมื่อต้องรับ-ส่งสินค้า หรือเข้าพื้นที่ลูกค้า</li>
-                        <li>ปฏิบัติงานอื่น ๆ ตามที่ได้รับมอบหมายจากหัวหน้างาน</li>
-                    </ol>
-                </section>
+                    <section class="detail-card">
+                        <h2 class="detail-heading">รายละเอียดงาน</h2>
+                        <ol class="detail-list">
+                            <li>ขับรถบรรทุกหรือรถหัวลากตามแผนงานขนส่งของบริษัท</li>
+                            <li>ตรวจเช็กสภาพรถเบื้องต้นก่อนและหลังปฏิบัติงาน</li>
+                            <li>ดูแลความปลอดภัยของสินค้า รถ และเอกสารประกอบการขนส่ง</li>
+                            <li>ประสานงานกับทีมปฏิบัติการเมื่อต้องรับ-ส่งสินค้า หรือเข้าพื้นที่ลูกค้า</li>
+                            <li>ปฏิบัติงานอื่น ๆ ตามที่ได้รับมอบหมายจากหัวหน้างาน</li>
+                        </ol>
+                    </section>
 
-                <section class="detail-card">
-                    <h2 class="detail-heading">คุณสมบัติผู้สมัคร</h2>
-                    <ol class="detail-list">
-                        <li>มีใบอนุญาตขับขี่ตามประเภทรถที่ใช้งาน</li>
-                        <li>มีประสบการณ์ขับรถบรรทุกหรือรถหัวลากจะพิจารณาเป็นพิเศษ</li>
-                        <li>รู้เส้นทางในพื้นที่ชลบุรี แหลมฉบัง หรือพื้นที่อุตสาหกรรมใกล้เคียง</li>
-                        <li>มีความรับผิดชอบ ตรงต่อเวลา และให้ความสำคัญกับความปลอดภัย</li>
-                        <li>สามารถทำงานตามรอบงานขนส่งและประสานงานกับทีมได้ดี</li>
-                    </ol>
-                </section>
+                    <section class="detail-card">
+                        <h2 class="detail-heading">คุณสมบัติผู้สมัคร</h2>
+                        <ol class="detail-list">
+                            <li>มีใบอนุญาตขับขี่ตามประเภทรถที่ใช้งาน</li>
+                            <li>มีประสบการณ์ขับรถบรรทุกหรือรถหัวลากจะพิจารณาเป็นพิเศษ</li>
+                            <li>รู้เส้นทางในพื้นที่ชลบุรี แหลมฉบัง หรือพื้นที่อุตสาหกรรมใกล้เคียง</li>
+                            <li>มีความรับผิดชอบ ตรงต่อเวลา และให้ความสำคัญกับความปลอดภัย</li>
+                            <li>สามารถทำงานตามรอบงานขนส่งและประสานงานกับทีมได้ดี</li>
+                        </ol>
+                    </section>
+                </article>
+
+                <article class="job-detail" id="cs-transportation" data-title="CS Transportation / Manager Transportation">
+                    <section class="detail-card">
+                        <h2 class="detail-heading">สรุปตำแหน่งงาน</h2>
+                        <div class="detail-summary">
+                            <div class="summary-item"><span>สถานที่ปฏิบัติงาน</span><strong>ชลบุรี และพื้นที่ให้บริการ</strong></div>
+                            <div class="summary-item"><span>เงินเดือน</span><strong>ตามประสบการณ์</strong></div>
+                            <div class="summary-item"><span>อัตรา</span><strong>เปิดรับสมัคร</strong></div>
+                            <div class="summary-item"><span>ประเภทงาน</span><strong>CS Transportation</strong></div>
+                        </div>
+                    </section>
+
+                    <section class="detail-card">
+                        <h2 class="detail-heading">รายละเอียดงาน</h2>
+                        <ol class="detail-list">
+                            <li>ประสานงานขนส่งกับลูกค้า พนักงานขับรถ และทีมปฏิบัติการ</li>
+                            <li>วางแผนและติดตามสถานะงานขนส่งให้เป็นไปตามกำหนดเวลา</li>
+                            <li>ตรวจสอบเอกสารขนส่งและสรุปรายงานการให้บริการประจำวัน</li>
+                            <li>แก้ไขปัญหาเฉพาะหน้าและประสานงานกับหน่วยงานที่เกี่ยวข้อง</li>
+                            <li>ดูแลคุณภาพการให้บริการและสนับสนุนการบริหารทีม Transportation</li>
+                        </ol>
+                    </section>
+
+                    <section class="detail-card">
+                        <h2 class="detail-heading">คุณสมบัติผู้สมัคร</h2>
+                        <ol class="detail-list">
+                            <li>มีประสบการณ์ด้านประสานงานขนส่ง โลจิสติกส์ หรือ Customer Service</li>
+                            <li>มีทักษะการสื่อสารและการติดตามงานที่เป็นระบบ</li>
+                            <li>สามารถใช้โปรแกรมสำนักงานและจัดทำรายงานได้ดี</li>
+                            <li>มีความรับผิดชอบ ทำงานภายใต้เวลาที่กำหนด และแก้ไขปัญหาเฉพาะหน้าได้</li>
+                            <li>มีประสบการณ์บริหารทีมขนส่งจะพิจารณาเป็นพิเศษ</li>
+                        </ol>
+                    </section>
+                </article>
             </div>
 
             <aside class="detail-sidebar">
@@ -157,6 +196,23 @@
     </main>
 
     <?php include '../component/footer.php'; ?>
+    <script>
+        (function () {
+            const params = new URLSearchParams(window.location.search);
+            const selectedJob = params.get('job') || 'truck-driver';
+            const jobs = document.querySelectorAll('.job-detail');
+            const selectedPanel = document.getElementById(selectedJob) || document.getElementById('truck-driver');
+            const heroTitle = document.getElementById('hero-title');
+
+            jobs.forEach((job) => {
+                job.hidden = job !== selectedPanel;
+            });
+
+            if (selectedPanel && heroTitle) {
+                heroTitle.textContent = selectedPanel.dataset.title;
+            }
+        })();
+    </script>
 </body>
 
 </html>

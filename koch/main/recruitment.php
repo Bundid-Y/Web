@@ -219,13 +219,13 @@
 
                         <article class="job-card">
                             <div>
-                                <h3 class="job-card__title">Sales Engineer - Supply Chain Management</h3>
+                                <h3 class="job-card__title">CS Transportation / Manager Transportation</h3>
                                 <ul class="job-meta">
-                                    <li>ขายโซลูชันบรรจุภัณฑ์และบริหารซัพพลายเชน</li>
+                                    <li>ติดต่อประสานพนักงานขับรถ Trailer, 6W, 4WJ</li>
                                 </ul>
                             </div>
                             <div class="job-action">
-                                <a class="career-btn" href="../main/recruitment_details.php?job=sales-engineer">รายละเอียด</a>
+                                <a class="career-btn" href="../main/recruitment_details.php?job=cs-transportation">รายละเอียด</a>
                             </div>
                         </article>
                     </div>
