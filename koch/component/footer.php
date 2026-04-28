@@ -45,6 +45,7 @@
                 <li><a href="<?php echo $base; ?>about/company.php" data-i18n="footer.about">เกี่ยวกับเรา</a></li>
                 <li><a href="<?php echo $base; ?>main/product.php" data-i18n="footer.product">สินค้า</a></li>
                 <li><a href="<?php echo $base; ?>main/contact.php" data-i18n="footer.contact">ติดต่อเรา</a></li>
+                <li><a href="<?php echo $base; ?>main/recruitment.php" data-i18n="footer.recruitment">ร่วมงานกับเรา</a></li>
             </ul>
         </div>
 

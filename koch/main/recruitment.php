@@ -207,13 +207,13 @@
 
                         <article class="job-card">
                             <div>
-                                <h3 class="job-card__title">นักบัญชีและตรวจสอบต้นทุน - Supervisor / Assistant Manager</h3>
+                                <h3 class="job-card__title">QA/QC Staff - Packaging ( เหมือง,ชลบุรี 1 ตำแหน่ง / Eastern Seaboard 1 ตำแหน่ง)</h3>
                                 <ul class="job-meta">
-                                    <li>ตรวจสอบต้นทุนการผลิตและต้นทุนการดำเนินงาน</li>
+                                    <li>ตรวจสอบคุณภาพทั้งกระบวนการ (RM, WIP, FG)</li>
                                 </ul>
                             </div>
                             <div class="job-action">
-                                <a class="career-btn" href="../main/recruitment_details.php?job=cost-accounting-supervisor">รายละเอียด</a>
+                                <a class="career-btn" href="../main/recruitment_details.php?job=qa-qc-staff-packaging">รายละเอียด</a>
                             </div>
                         </article>
 

@@ -203,30 +203,31 @@
                     </section>
                 </article>
 
-                <article class="job-detail" id="cost-accounting-supervisor" data-title="นักบัญชีและตรวจสอบต้นทุน - Supervisor / Assistant Manager">
+                <article class="job-detail" id="cost-accounting-supervisor" data-title="QA/QC Staff - Packaging">
                     <section class="detail-card">
                         <h2 class="detail-heading">สรุปตำแหน่งงาน</h2>
                         <div class="detail-summary">
-                            <div class="summary-item"><span>สถานที่ปฏิบัติงาน</span><strong>อ.เมืองชลบุรี จ.ชลบุรี</strong></div>
-                            <div class="summary-item"><span>เงินเดือน</span><strong>ตามตกลง</strong></div>
-                            <div class="summary-item"><span>อัตรา</span><strong>ไม่ระบุ</strong></div>
-                            <div class="summary-item"><span>ประเภทงาน</span><strong>บัญชี / ต้นทุน</strong></div>
+                            <div class="summary-item"><span>สถานที่ปฏิบัติงาน</span><strong>เหมือง,ชลบุรี</strong></div>
+                            <div class="summary-item"><span>เงินเดือน</span><strong>ตามประสบการณ์</strong></div>
+                            <div class="summary-item"><span>อัตรา</span><strong>1 ตำแหน่ง / Eastern Seaboard 1 ตำแหน่ง</strong></div>
+                            <div class="summary-item"><span>ประเภทงาน</span><strong>QA/QC Staff - Packaging</strong></div>
                         </div>
                     </section>
                     <section class="detail-card">
                         <h2 class="detail-heading">รายละเอียดงาน</h2>
                         <ol class="detail-list">
-                            <li>ตรวจสอบต้นทุนการผลิตและต้นทุนการดำเนินงาน</li>
-                            <li>จัดทำรายงาน วิเคราะห์ข้อมูล และเสนอแนวทางควบคุมต้นทุน</li>
-                            <li>ประสานงานกับฝ่ายผลิต คลังสินค้า และบัญชีเพื่อให้ข้อมูลถูกต้อง</li>
+                            <li>ตรวจสอบคุณภาพทั้งกระบวนการ (RM, WIP, FG)</li>
+                            <li>สรุปปัญหาและรายงานต่อผู้บังคับบัญชา</li>
+                            <li>ดำเนินการแก้ไขปัญหาตามแผนที่กำหนด</li>
                         </ol>
                     </section>
                     <section class="detail-card">
                         <h2 class="detail-heading">คุณสมบัติผู้สมัคร</h2>
                         <ol class="detail-list">
-                            <li>มีประสบการณ์ด้านบัญชีต้นทุนหรือบัญชีโรงงาน</li>
-                            <li>วิเคราะห์ตัวเลขและใช้โปรแกรมสำนักงานได้ดี</li>
-                            <li>ละเอียดรอบคอบและทำงานตามกำหนดเวลาได้</li>
+                            <li>เพศชาย อายุ ไม่เกิน 30 ปี</li>
+                            <li>จบการศึกษา ปวช./ปวส./ป.ตรี สาขาที่เกี่ยวข้อง</li>
+                            <li>มีความรับผิดชอบในงานที่ได้รับมอบหมาย</li>
+                            <li>เริ่มงานได้ทันที จะพิจารณาเป็นพิเศษ**</li>
                         </ol>
                     </section>
                 </article>
