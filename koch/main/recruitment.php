@@ -262,6 +262,18 @@
                 border-top: 0;
                 padding-top: 0;
             }
+            .mobile-modal-body .application-block {
+                display: block;
+                margin-top: 28px;
+                padding-top: 22px;
+                border-top: 1px solid var(--career-border);
+            }
+            .mobile-modal-body .form-grid {
+                grid-template-columns: 1fr;
+            }
+            .mobile-modal-body .submit-row .career-btn {
+                width: 100%;
+            }
             body.mobile-modal-open { overflow: hidden; }
         }
     </style>
@@ -478,6 +490,7 @@
             const modalBody = modal ? modal.querySelector('.mobile-modal-body') : null;
             const modalBack = modal ? modal.querySelector('.mobile-modal-back') : null;
             const benefits = document.querySelector('.benefits-section');
+            const applicationBlock = document.querySelector('.application-block');
 
             function selectJob(jobId) {
                 const activePanel = document.getElementById(jobId);
@@ -496,6 +509,9 @@
                 modalBody.appendChild(activePanel.cloneNode(true));
                 if (benefits) {
                     modalBody.appendChild(benefits.cloneNode(true));
+                }
+                if (applicationBlock) {
+                    modalBody.appendChild(applicationBlock.cloneNode(true));
                 }
                 modal.classList.add('is-open');
                 modal.setAttribute('aria-hidden', 'false');
