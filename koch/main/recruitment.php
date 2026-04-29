@@ -203,6 +203,7 @@
             cursor: pointer;
         }
         .career-btn:hover { background: var(--career-accent); color: #fff; }
+        .mobile-job-modal { display: none; }
         @media (max-width: 980px) {
             .recruitment-top,
             .recruitment-board { grid-template-columns: 1fr; }
