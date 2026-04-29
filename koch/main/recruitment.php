@@ -343,14 +343,6 @@
                     <h2 class="application-title">สมัครงานตำแหน่งนี้</h2>
                     <form class="application-form" action="#" method="post" enctype="multipart/form-data">
                         <div class="form-grid">
-                            <div class="form-field form-field--full">
-                                <label for="position">ตำแหน่งที่สมัคร*</label>
-                                <select id="position" name="position" required>
-                                    <option>Purchasing Assistant Manager / Manager</option>
-                                    <option>Strategic Planning (CEO Office)</option>
-                                    <option>QA/QC Staff - Packaging</option>
-                                </select>
-                            </div>
                             <div class="form-field">
                                 <label for="fullname">ชื่อ-สกุล*</label>
                                 <input id="fullname" name="fullname" type="text" required>
@@ -363,10 +355,6 @@
                                 <label for="phone">หมายเลขโทรศัพท์*</label>
                                 <input id="phone" name="phone" type="tel" required>
                             </div>
-                            <div class="form-field">
-                                <label for="salary">เงินเดือนที่คาดหวัง</label>
-                                <input id="salary" name="salary" type="text">
-                            </div>
                             <div class="form-field form-field--full file-field">
                                 <label for="resume">เรซูเม่ / ประวัติการทำงาน*</label>
                                 <input id="resume" name="resume" type="file" accept=".pdf,.doc,.docx,.jpg,.jpeg,.png" required>
@@ -377,11 +365,6 @@
                             <input id="privacy-consent" name="privacy_consent" type="checkbox" required>
                             <p class="application-note">ข้าพเจ้าให้ความยินยอมแก่ บริษัท Koch Packaging and Packing Services Co., Ltd. ในการเก็บ และใช้ ข้อมูลส่วนบุคคล ของข้าพเจ้าเพื่อติดต่อกลับข้าพเจ้า หรือส่งต่อไปยังผู้เกี่ยวข้องเพื่อดำเนินการตามวัตถุประสงค์ *</p>
                         </label>
-                        <label class="verify-box">
-                            <input name="human_confirm" type="checkbox">
-                            <span>ฉันไม่ใช่โปรแกรมอัตโนมัติ</span>
-                        </label>
-                        <div class="submit-row">
                             <button class="career-btn" type="submit">สมัครงาน</button>
                         </div>
                     </form>
