@@ -49,11 +49,15 @@
         .detail-sidebar {
             position: sticky;
             top: 104px;
+            align-self: start;
+            max-height: calc(100vh - 124px);
             background: #fff;
             border: 1px solid #e7eaf0;
             border-radius: 8px;
             box-shadow: 0 16px 42px rgba(18, 31, 53, .06);
-            overflow: hidden;
+            overflow-y: auto;
+            scrollbar-width: thin;
+            transition: top .2s ease;
         }
         .sidebar-block { padding: 22px; border-bottom: 1px solid #e7eaf0; }
         .sidebar-block:last-child { border-bottom: 0; }
@@ -216,7 +220,7 @@
                     <p class="contact-lines">ส่งประวัติส่วนตัว สำเนาใบอนุญาตขับขี่ และเอกสารประกอบการสมัครมายังฝ่ายบุคคล หรือสอบถามรายละเอียดเพิ่มเติมผ่านช่องทางติดต่อของบริษัท</p>
                 </div>
                 <div class="sidebar-block">
-                    <a class="detail-btn" href="../main/jobapplicationform.php">กรอกใบสมัคร</a>
+                    <a class="detail-btn" href="../main/recruitment.php#application-form">กรอกใบสมัคร</a>
                     <a class="detail-btn detail-btn--light" href="../main/recruitment.php">กลับหน้าตำแหน่งงาน</a>
                 </div>
             </aside>

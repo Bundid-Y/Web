@@ -95,7 +95,15 @@
             margin-top: 5px;
             accent-color: var(--app-primary);
         }
-        .application-side { position: sticky; top: 104px; overflow: hidden; }
+        .application-side {
+            position: sticky;
+            top: 104px;
+            align-self: start;
+            max-height: calc(100vh - 124px);
+            overflow-y: auto;
+            scrollbar-width: thin;
+            transition: top .2s ease;
+        }
         .side-block { padding: 22px; border-bottom: 1px solid #e7eaf0; }
         .side-block:last-child { border-bottom: 0; }
         .side-title { margin: 0 0 12px; font-size: 18px; font-weight: 800; }
