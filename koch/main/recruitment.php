@@ -205,10 +205,64 @@
         @media (max-width: 640px) {
             .recruitment-shell { padding: 96px 16px 56px; }
             .career-title, .detail-title { font-size: 25px; }
+            .recruitment-board { grid-template-columns: 1fr; }
+            .job-rail {
+                position: static;
+                max-height: none;
+                overflow: visible;
+            }
+            .content-panel { display: none; }
             .detail-meta, .form-grid { grid-template-columns: 1fr; }
             .meta-item { padding: 0; border-left: 0; border-top: 1px solid var(--career-border); padding-top: 12px; }
             .meta-item:first-child { border-top: 0; padding-top: 0; }
             .submit-row .career-btn { width: 100%; }
+            .mobile-job-modal {
+                position: fixed;
+                inset: 0;
+                z-index: 9999;
+                display: none;
+                background: #fff;
+                color: var(--career-text);
+                overflow-y: auto;
+                padding: 20px 16px 34px;
+            }
+            .mobile-job-modal.is-open { display: block; }
+            .mobile-modal-back {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                min-height: 38px;
+                padding: 0 14px;
+                margin-bottom: 18px;
+                border: 1px solid var(--career-border);
+                border-radius: 999px;
+                background: #fff;
+                color: var(--career-primary);
+                font: inherit;
+                font-weight: 800;
+            }
+            .mobile-modal-body .detail-panel {
+                display: block;
+            }
+            .mobile-modal-body .detail-head {
+                padding-bottom: 18px;
+                margin-bottom: 18px;
+            }
+            .mobile-modal-body .detail-meta {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 0;
+            }
+            .mobile-modal-body .meta-item {
+                padding: 14px 0;
+                border-left: 0;
+                border-top: 1px solid var(--career-border);
+            }
+            .mobile-modal-body .meta-item:first-child {
+                border-top: 0;
+                padding-top: 0;
+            }
+            body.mobile-modal-open { overflow: hidden; }
         }
     </style>
 </head>
@@ -360,7 +414,7 @@
                     </div>
                 </div>
 
-                <div class="detail-section">
+                <div class="detail-section benefits-section">
                     <h3 class="detail-heading">สวัสดิการ</h3>
                     <ol class="detail-list">
                             <li>ประกันสังคม</li>
@@ -373,7 +427,7 @@
                 </div>
 
                 <section class="application-block" id="application-form">
-                    <h2 class="application-title">สมัครงานตำแหน่งนี้</h2>
+                    <h2 class="application-title">สมัครงาน</h2>
                     <form class="application-form" action="#" method="post" enctype="multipart/form-data">
                         <div class="form-grid">
                             <div class="form-field form-field--full">
@@ -407,6 +461,11 @@
         </div>
     </main>
 
+    <div class="mobile-job-modal" id="mobile-job-modal" aria-hidden="true">
+        <button class="mobile-modal-back" type="button">← กลับ</button>
+        <div class="mobile-modal-body"></div>
+    </div>
+
     <?php include '../component/footer.php'; ?>
 
     <script>
@@ -414,6 +473,11 @@
             const tabs = document.querySelectorAll('.job-tab');
             const panels = document.querySelectorAll('.detail-panel');
             const position = document.getElementById('position');
+            const mobileQuery = window.matchMedia('(max-width: 640px)');
+            const modal = document.getElementById('mobile-job-modal');
+            const modalBody = modal ? modal.querySelector('.mobile-modal-body') : null;
+            const modalBack = modal ? modal.querySelector('.mobile-modal-back') : null;
+            const benefits = document.querySelector('.benefits-section');
 
             function selectJob(jobId) {
                 const activePanel = document.getElementById(jobId);
@@ -424,9 +488,42 @@
                 }
             }
 
+            function openMobileModal(jobId) {
+                const activePanel = document.getElementById(jobId);
+                if (!activePanel || !modal || !modalBody) return;
+                selectJob(jobId);
+                modalBody.innerHTML = '';
+                modalBody.appendChild(activePanel.cloneNode(true));
+                if (benefits) {
+                    modalBody.appendChild(benefits.cloneNode(true));
+                }
+                modal.classList.add('is-open');
+                modal.setAttribute('aria-hidden', 'false');
+                document.body.classList.add('mobile-modal-open');
+                modal.scrollTop = 0;
+            }
+
+            function closeMobileModal() {
+                if (!modal || !modalBody) return;
+                modal.classList.remove('is-open');
+                modal.setAttribute('aria-hidden', 'true');
+                document.body.classList.remove('mobile-modal-open');
+                modalBody.innerHTML = '';
+            }
+
             tabs.forEach((tab) => {
-                tab.addEventListener('click', () => selectJob(tab.dataset.job));
+                tab.addEventListener('click', () => {
+                    if (mobileQuery.matches) {
+                        openMobileModal(tab.dataset.job);
+                        return;
+                    }
+                    selectJob(tab.dataset.job);
+                });
             });
+
+            if (modalBack) {
+                modalBack.addEventListener('click', closeMobileModal);
+            }
         })();
     </script>
 </body>
