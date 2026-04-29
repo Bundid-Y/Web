@@ -146,6 +146,15 @@
         .detail-section { margin-top: 22px; }
         .detail-heading { margin: 0 0 10px; color: var(--career-text); font-size: 15px; font-weight: 800; }
         .detail-list { margin: 0; padding-left: 20px; color: #46566e; line-height: 1.8; font-size: 14px; }
+        .contact-apply {
+            border-top: 1px solid var(--career-border);
+            margin-top: 26px;
+            padding-top: 22px;
+        }
+        .contact-apply__title { margin: 0 0 10px; color: var(--career-text); font-size: 15px; font-weight: 800; }
+        .contact-apply__department { margin: 0 0 10px; color: #111827; font-size: 14px; font-weight: 400; }
+        .contact-apply__lines { margin: 0; color: #111827; line-height: 1.8; font-size: 14px; font-weight: 400; }
+        .contact-apply__lines a { color: #111827; text-decoration: none; font-weight: 400; }
         .application-block { border-top: 1px solid var(--career-border); margin-top: 26px; padding-top: 22px; }
         .application-title { margin: 0 0 14px; color: var(--career-primary); font-size: 22px; font-weight: 800; }
         .application-form { display: grid; gap: 12px; }
@@ -451,6 +460,15 @@
                     </ol>
                 </div>
 
+                <section class="detail-section contact-apply">
+                    <h3 class="detail-heading contact-apply__title">ติดต่อสมัครงาน</h3>
+                    <p class="contact-apply__department">ฝ่ายทรัพยากรบุคคล</p>
+                    <p class="contact-apply__lines">
+                        เบอร์: 085-8799795, 090-9542354<br>
+                        อีเมล: <a href="mailto:wachira.o@tnb-logistics.com">wachira.o@tnb-logistics.com</a>
+                    </p>
+                </section>
+
                 <section class="application-block" id="application-form">
                     <h2 class="application-title">สมัครงาน</h2>
                     <form class="application-form" action="#" method="post" enctype="multipart/form-data">
@@ -503,6 +521,7 @@
             const modalBody = modal ? modal.querySelector('.mobile-modal-body') : null;
             const modalBack = modal ? modal.querySelector('.mobile-modal-back') : null;
             const benefits = document.querySelector('.benefits-section');
+            const contactApply = document.querySelector('.contact-apply');
             const applicationBlock = document.querySelector('.application-block');
 
             function selectJob(jobId) {
@@ -522,6 +541,9 @@
                 modalBody.appendChild(activePanel.cloneNode(true));
                 if (benefits) {
                     modalBody.appendChild(benefits.cloneNode(true));
+                }
+                if (contactApply) {
+                    modalBody.appendChild(contactApply.cloneNode(true));
                 }
                 if (applicationBlock) {
                     modalBody.appendChild(applicationBlock.cloneNode(true));
