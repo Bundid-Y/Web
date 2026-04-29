@@ -23,10 +23,10 @@
     <script src="../js/script.js?v=<?php echo time(); ?>" defer></script>
     <style>
         .page-recruitment {
-            --career-primary: #0057ff;
-            --career-accent: #0d2d6b;
+            --career-primary: #0d2d6b;
+            --career-accent: #081f4d;
             --career-dark: #081f4d;
-            --career-line: #9ab4ff;
+            --career-line: #b7c6e8;
             --career-soft: #f0f5ff;
             --career-text: #152033;
             --career-muted: #61728a;
@@ -35,6 +35,11 @@
             color: var(--career-text);
         }
         .recruitment-shell { max-width: 1220px; margin: 0 auto; padding: 112px 22px 72px; }
+        .page-recruitment,
+        .recruitment-shell,
+        .recruitment-board {
+            overflow: visible !important;
+        }
         .recruitment-top {
             display: grid;
             grid-template-columns: 1fr auto;
@@ -56,14 +61,25 @@
             text-align: right;
         }
         .company-badge strong { color: var(--career-text); font-size: 16px; }
-        .recruitment-board { display: grid; grid-template-columns: 330px minmax(0, 1fr); gap: 34px; align-items: start; }
+        .recruitment-board {
+            position: relative;
+            display: grid;
+            grid-template-columns: 330px minmax(0, 1fr);
+            gap: 34px;
+            align-items: start;
+        }
         .job-rail {
-            position: sticky;
+            position: sticky !important;
             top: 96px;
+            align-self: start;
             max-height: calc(100vh - 116px);
             overflow-y: auto;
             scrollbar-width: thin;
-            padding-right: 6px;
+            padding: 18px;
+            border: 1px solid var(--career-border);
+            border-radius: 14px;
+            background: linear-gradient(180deg, #fff, #f8fbff);
+            box-shadow: 0 18px 45px rgba(18, 31, 53, .07);
         }
         .rail-title { margin: 0 0 14px; color: var(--career-text); font-size: 18px; font-weight: 800; }
         .job-tab {
@@ -72,22 +88,46 @@
             grid-template-columns: 1fr 28px;
             gap: 12px;
             align-items: center;
-            border: 0;
-            border-bottom: 1px solid var(--career-line);
-            background: transparent;
-            padding: 14px 0;
+            border: 1px solid var(--career-border);
+            border-left: 4px solid transparent;
+            border-radius: 12px;
+            background: #fff;
+            padding: 14px;
+            margin: 0 0 12px;
             color: var(--career-text);
             text-align: left;
             cursor: pointer;
             font: inherit;
+            box-shadow: 0 10px 25px rgba(18, 31, 53, .05);
+            transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease, background-color .18s ease;
         }
-        .job-tab__title { display: block; font-size: 14px; line-height: 1.35; font-weight: 800; }
+        .job-tab__title { display: block; font-size: 14px; line-height: 1.35; font-weight: 800; transition: color .18s ease; }
         .job-tab__meta { display: block; margin-top: 4px; color: var(--career-muted); font-size: 12px; line-height: 1.35; }
-        .job-tab__arrow { color: #c8d0dc; font-size: 22px; line-height: 1; text-align: right; }
+        .job-tab__arrow {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: #c8d0dc;
+            background: #f8fafc;
+            font-size: 18px;
+            line-height: 1;
+            text-align: right;
+            transition: color .18s ease, background-color .18s ease, transform .18s ease;
+        }
+        .job-tab:hover { transform: translateY(-2px); box-shadow: 0 16px 34px rgba(18, 31, 53, .09); border-color: rgba(13, 45, 107, .22); }
         .job-tab:hover .job-tab__title,
         .job-tab.is-active .job-tab__title,
         .job-tab.is-active .job-tab__arrow { color: var(--career-primary); }
-        .job-tab.is-active { border-bottom-color: var(--career-primary); }
+        .job-tab:hover .job-tab__arrow,
+        .job-tab.is-active .job-tab__arrow { background: var(--career-soft); transform: translateX(2px); }
+        .job-tab.is-active {
+            border-color: rgba(13, 45, 107, .34);
+            border-left-color: var(--career-primary);
+            background: linear-gradient(135deg, #fff, var(--career-soft));
+        }
         .content-panel { min-width: 0; }
         .detail-panel { display: none; }
         .detail-panel.is-active { display: block; }
@@ -130,7 +170,7 @@
         .form-field textarea { min-height: 48px; resize: vertical; }
         .form-field input:focus,
         .form-field select:focus,
-        .form-field textarea:focus { border-color: var(--career-primary); box-shadow: 0 0 0 3px rgba(0, 87, 255, .12); }
+        .form-field textarea:focus { border-color: var(--career-primary); box-shadow: 0 0 0 3px rgba(13, 45, 107, .12); }
         .file-field { position: relative; }
         .file-field input { padding-right: 90px; }
         .file-hint { position: absolute; right: 12px; bottom: 11px; color: var(--career-primary); font-size: 12px; font-weight: 800; pointer-events: none; }
@@ -168,12 +208,29 @@
         }
         .career-btn:hover { background: var(--career-accent); color: #fff; }
         @media (max-width: 980px) {
-            .recruitment-top,
-            .recruitment-board { grid-template-columns: 1fr; }
+            .recruitment-top { grid-template-columns: 1fr; }
+            .recruitment-board {
+                grid-template-columns: minmax(250px, 320px) minmax(0, 1fr);
+                gap: 22px;
+                align-items: start;
+            }
             .company-badge { justify-items: start; text-align: left; }
-            .job-rail { position: static; max-height: none; padding-right: 0; }
+            .job-rail {
+                position: sticky !important;
+                top: 90px;
+                align-self: start;
+                max-height: calc(100vh - 108px);
+            }
             .detail-meta { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 0; }
             .meta-item:nth-child(odd) { padding-left: 0; border-left: 0; }
+        }
+        @media (max-width: 560px) {
+            .recruitment-board { grid-template-columns: 1fr; }
+            .job-rail {
+                position: static !important;
+                max-height: none;
+                overflow: visible;
+            }
         }
         @media (max-width: 640px) {
             .recruitment-shell { padding: 96px 16px 56px; }

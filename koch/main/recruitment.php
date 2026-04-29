@@ -57,10 +57,15 @@
         .job-rail {
             position: sticky;
             top: 96px;
+            align-self: start;
             max-height: calc(100vh - 116px);
             overflow-y: auto;
             scrollbar-width: thin;
-            padding-right: 6px;
+            padding: 18px;
+            border: 1px solid var(--career-border);
+            border-radius: 14px;
+            background: linear-gradient(180deg, #fff, #fffafa);
+            box-shadow: 0 18px 45px rgba(18, 31, 53, .07);
         }
         .rail-title { margin: 0 0 14px; color: var(--career-text); font-size: 18px; font-weight: 800; }
         .job-tab {
@@ -69,22 +74,46 @@
             grid-template-columns: 1fr 28px;
             gap: 12px;
             align-items: center;
-            border: 0;
-            border-bottom: 1px solid var(--career-line);
-            background: transparent;
-            padding: 14px 0;
+            border: 1px solid var(--career-border);
+            border-left: 4px solid transparent;
+            border-radius: 12px;
+            background: #fff;
+            padding: 14px;
+            margin: 0 0 12px;
             color: var(--career-text);
             text-align: left;
             cursor: pointer;
             font: inherit;
+            box-shadow: 0 10px 25px rgba(18, 31, 53, .05);
+            transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease, background-color .18s ease;
         }
-        .job-tab__title { display: block; font-size: 14px; line-height: 1.35; font-weight: 800; }
+        .job-tab__title { display: block; font-size: 14px; line-height: 1.35; font-weight: 800; transition: color .18s ease; }
         .job-tab__meta { display: block; margin-top: 4px; color: var(--career-muted); font-size: 12px; line-height: 1.35; }
-        .job-tab__arrow { color: #c8d0dc; font-size: 22px; line-height: 1; text-align: right; }
+        .job-tab__arrow {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: #c8d0dc;
+            background: #f8fafc;
+            font-size: 18px;
+            line-height: 1;
+            text-align: right;
+            transition: color .18s ease, background-color .18s ease, transform .18s ease;
+        }
+        .job-tab:hover { transform: translateY(-2px); box-shadow: 0 16px 34px rgba(18, 31, 53, .09); border-color: rgba(240, 68, 56, .22); }
         .job-tab:hover .job-tab__title,
         .job-tab.is-active .job-tab__title,
         .job-tab.is-active .job-tab__arrow { color: var(--career-primary); }
-        .job-tab.is-active { border-bottom-color: var(--career-primary); }
+        .job-tab:hover .job-tab__arrow,
+        .job-tab.is-active .job-tab__arrow { background: var(--career-soft); transform: translateX(2px); }
+        .job-tab.is-active {
+            border-color: rgba(240, 68, 56, .34);
+            border-left-color: var(--career-primary);
+            background: linear-gradient(135deg, #fff, var(--career-soft));
+        }
         .content-panel { min-width: 0; }
         .detail-panel { display: none; }
         .detail-panel.is-active { display: block; }
@@ -168,7 +197,7 @@
             .recruitment-top,
             .recruitment-board { grid-template-columns: 1fr; }
             .company-badge { justify-items: start; text-align: left; }
-            .job-rail { position: static; max-height: none; padding-right: 0; }
+            .job-rail { max-height: calc(100vh - 116px); }
             .detail-meta { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 0; }
             .meta-item:nth-child(odd) { padding-left: 0; border-left: 0; }
         }
@@ -201,18 +230,21 @@
                         <span class="job-tab__title">Purchasing Assistant Manager / Manager</span>
                         <span class="job-tab__meta">อ.เมืองชลบุรี จ.ชลบุรี</span>
                     </span>
+                    <span class="job-tab__arrow">→</span>
                 </button>
                 <button class="job-tab" type="button" data-job="strategic-planning">
                     <span>
                         <span class="job-tab__title">Strategic Planning (CEO Office)</span>
                         <span class="job-tab__meta">จ.ชลบุรี</span>
                     </span>
+                    <span class="job-tab__arrow">→</span>
                 </button>
                 <button class="job-tab" type="button" data-job="qa-qc-staff-packaging">
                     <span>
                         <span class="job-tab__title">QA/QC Staff - Packaging</span>
                         <span class="job-tab__meta">เหมือง, ชลบุรี</span>
                     </span>
+                    <span class="job-tab__arrow">→</span>
                 </button>
             </aside>
 
