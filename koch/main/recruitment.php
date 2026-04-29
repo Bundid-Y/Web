@@ -178,6 +178,7 @@
         }
         .verify-box input { width: 18px; height: 18px; accent-color: var(--career-primary); }
         .submit-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+        .submit-row .career-btn { width: 100%; }
         .career-btn {
             display: inline-flex;
             align-items: center;
@@ -375,7 +376,7 @@
                     <h2 class="application-title">สมัครงานตำแหน่งนี้</h2>
                     <form class="application-form" action="#" method="post" enctype="multipart/form-data">
                         <div class="form-grid">
-                            <div class="form-field">
+                            <div class="form-field form-field--full">
                                 <label for="fullname">ชื่อ-สกุล*</label>
                                 <input id="fullname" name="fullname" type="text" required>
                             </div>
@@ -397,6 +398,7 @@
                             <input id="privacy-consent" name="privacy_consent" type="checkbox" required>
                             <p class="application-note">ข้าพเจ้าให้ความยินยอมแก่ บริษัท Koch Packaging and Packing Services Co., Ltd. ในการเก็บ และใช้ ข้อมูลส่วนบุคคล ของข้าพเจ้าเพื่อติดต่อกลับข้าพเจ้า หรือส่งต่อไปยังผู้เกี่ยวข้องเพื่อดำเนินการตามวัตถุประสงค์ *</p>
                         </label>
+                        <div class="submit-row">
                             <button class="career-btn" type="submit">สมัครงาน</button>
                         </div>
                     </form>

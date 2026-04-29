@@ -192,6 +192,7 @@
         }
         .verify-box input { width: 18px; height: 18px; accent-color: var(--career-primary); }
         .submit-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+        .submit-row .career-btn { width: 100%; }
         .career-btn {
             display: inline-flex;
             align-items: center;
@@ -250,11 +251,6 @@
         <header class="recruitment-top">
             <div>
                 <h1 class="career-title">ตำแหน่งที่เปิดรับสมัคร</h1>
-                <p class="career-summary">รวมข้อมูลบริษัท สวัสดิการ รายละเอียดตำแหน่งงาน คุณสมบัติ และแบบฟอร์มสมัครงานไว้ในหน้าเดียว เพื่อให้สมัครงานได้สะดวกโดยไม่ต้องเข้าออกหลายหน้า</p>
-            </div>
-            <div class="company-badge">
-                <strong>TNB Logistics Co., Ltd.</strong>
-                <span>ฝ่ายทรัพยากรบุคคล</span>
             </div>
         </header>
 
@@ -289,10 +285,9 @@
                     <div class="detail-head">
                         <h2 class="detail-title">พนักงานขับรถบรรทุก / รถหัวลาก</h2>
                         <div class="detail-meta">
-                            <div class="meta-item"><span>By Department</span><strong>Transport Operations</strong></div>
-                            <div class="meta-item"><span>By Location</span><strong>ชลบุรี และพื้นที่ให้บริการ</strong></div>
-                            <div class="meta-item"><span>By Employment Type</span><strong>Fulltime</strong></div>
-                            <div class="meta-item"><span>Salary</span><strong>ตามประสบการณ์</strong></div>
+                            <div class="meta-item"><span>สถานที่ปฏิบัติงาน</span><strong>ชลบุรี (ศรีราชา)</strong></div>
+                            <div class="meta-item"><span>ประเภทการจ้างงาน</span><strong>ประจำ</strong></div>
+                            <div class="meta-item"><span>เงินเดือน</span><strong>ตามโครงสร้างบริษัทฯ</strong></div>
                         </div>
                     </div>
                     <div class="detail-section">
@@ -308,8 +303,8 @@
                     <div class="detail-section">
                         <h3 class="detail-heading">คุณสมบัติผู้สมัคร</h3>
                         <ol class="detail-list">
-                            <li>มีใบอนุญาตขับขี่ตามประเภทรถที่ใช้งาน</li>
-                            <li>มีประสบการณ์ขับรถบรรทุกหรือรถหัวลากจะพิจารณาเป็นพิเศษ</li>
+                            <li>ต้องมีใบอนุญาตขับรถประเภท ท.2 และหากขับรถหัวลาก/รถพ่วง ต้องมีใบอนุญาตขับรถประเภท ท.3</li>
+                            <li>หากมีประสบการณ์ด้านงานขนส่งตู้สินค้าในท่าเรือ จะพิจารณาเป็นพิเศษ</li>
                             <li>รู้เส้นทางในพื้นที่ชลบุรี แหลมฉบัง หรือพื้นที่อุตสาหกรรมใกล้เคียง</li>
                             <li>มีความรับผิดชอบ ตรงต่อเวลา และให้ความสำคัญกับความปลอดภัย</li>
                             <li>สามารถทำงานตามรอบงานขนส่งและประสานงานกับทีมได้ดี</li>
@@ -321,10 +316,9 @@
                     <div class="detail-head">
                         <h2 class="detail-title">CS Transportation / Manager Transportation</h2>
                         <div class="detail-meta">
-                            <div class="meta-item"><span>By Department</span><strong>CS Transportation</strong></div>
-                            <div class="meta-item"><span>By Location</span><strong>ชลบุรี และพื้นที่ให้บริการ</strong></div>
-                            <div class="meta-item"><span>By Employment Type</span><strong>Fulltime</strong></div>
-                            <div class="meta-item"><span>Salary</span><strong>ตามประสบการณ์</strong></div>
+                            <div class="meta-item"><span>สถานที่ปฏิบัติงาน</span><strong>อ.เมืองชลบุรี จ.ชลบุรี</strong></div>
+                            <div class="meta-item"><span>ประเภทการจ้างงาน</span><strong>ประจำ</strong></div>
+                            <div class="meta-item"><span>เงินเดือน</span><strong>ตามโครงสร้างบริษัทฯ</strong></div>
                         </div>
                     </div>
                     <div class="detail-section">
@@ -353,10 +347,9 @@
                     <div class="detail-head">
                         <h2 class="detail-title">ช่างยนต์ และ ช่างไฟ (รถบรรทุก & รถหัวลาก)</h2>
                         <div class="detail-meta">
-                            <div class="meta-item"><span>By Department</span><strong>ช่างเทคนิค</strong></div>
-                            <div class="meta-item"><span>By Location</span><strong>อ.ศรีราชา จ.ชลบุรี</strong></div>
-                            <div class="meta-item"><span>By Employment Type</span><strong>Fulltime</strong></div>
-                            <div class="meta-item"><span>Salary</span><strong>ตามตกลง</strong></div>
+                            <div class="meta-item"><span>สถานที่ปฏิบัติงาน</span><strong>อ.ศรีราชา จ.ชลบุรี</strong></div>
+                            <div class="meta-item"><span>ประเภทการจ้างงาน</span><strong>ประจำ</strong></div>
+                            <div class="meta-item"><span>เงินเดือน</span><strong>ตามโครงสร้างบริษัทฯ</strong></div>
                         </div>
                     </div>
                     <div class="detail-section">
@@ -373,7 +366,8 @@
                             <li>เพศชาย อายุ 30-45 ปี</li>
                             <li>มีประสบการณ์การบำรุงรักษารถ 6W / Trailer</li>
                             <li>มีความรับผิดชอบ ขยัน และอดทนต่องาน</li>
-                            <li>สามารถรับแรงกดดันและแก้ปัญหาเฉพาะหน้าได้ดี</li>
+                            <li>สามารถรับแรงกดดันได้ดี</li>
+                            <li>สามารถแก้ปัญหาเฉพาะหน้าได้ดี</li>
                             <li>สามารถเริ่มงานได้ทันทีจะพิจารณาเป็นพิเศษ</li>
                         </ol>
                     </div>
@@ -382,12 +376,12 @@
                 <div class="detail-section">
                     <h3 class="detail-heading">สวัสดิการ</h3>
                     <ol class="detail-list">
-                            <li>ประกันสังคม</li>
-                            <li>ยูนิฟอร์ม</li>
-                            <li>ตรวจสุขภาพประจำปี</li>
-                            <li>งานเลี้ยงประจำปี</li>
-                            <li>สภาพแวดล้อมการทำงานเป็นทีม</li>
-                            <li>โอกาสเติบโตในสายงานโลจิสติกส์</li>
+                        <li>ประกันสังคม</li>
+                        <li>ยูนิฟอร์ม</li>
+                        <li>ท่องเที่ยวประจำปี</li>
+                        <li>งานเลี้ยงประจำปี</li>
+                        <li>งานเลี้ยงประจำแผนก</li>
+                        <li>ตรวจสุขภาพประจำปี</li>
                     </ol>
                 </div>
 
@@ -396,14 +390,6 @@
                     <form class="application-form" action="#" method="post" enctype="multipart/form-data">
                         <div class="form-grid">
                             <div class="form-field form-field--full">
-                                <label for="position">ตำแหน่งที่สมัคร*</label>
-                                <select id="position" name="position" required>
-                                    <option>พนักงานขับรถบรรทุก / รถหัวลาก</option>
-                                    <option>CS Transportation / Manager Transportation</option>
-                                    <option>ช่างยนต์ และ ช่างไฟ (รถบรรทุก & รถหัวลาก)</option>
-                                </select>
-                            </div>
-                            <div class="form-field">
                                 <label for="fullname">ชื่อ-สกุล*</label>
                                 <input id="fullname" name="fullname" type="text" required>
                             </div>
@@ -415,10 +401,6 @@
                                 <label for="phone">หมายเลขโทรศัพท์*</label>
                                 <input id="phone" name="phone" type="tel" required>
                             </div>
-                            <div class="form-field">
-                                <label for="license">ประเภทใบขับขี่</label>
-                                <input id="license" name="license" type="text">
-                            </div>
                             <div class="form-field form-field--full file-field">
                                 <label for="resume">เรซูเม่ / ประวัติการทำงาน*</label>
                                 <input id="resume" name="resume" type="file" accept=".pdf,.doc,.docx,.jpg,.jpeg,.png" required>
@@ -428,10 +410,6 @@
                         <label class="consent-field" for="privacy-consent">
                             <input id="privacy-consent" name="privacy_consent" type="checkbox" required>
                             <p class="application-note">ข้าพเจ้าให้ความยินยอมแก่ บริษัท TNB Logistics Co., Ltd. ในการเก็บ และใช้ ข้อมูลส่วนบุคคล ของข้าพเจ้าเพื่อติดต่อกลับข้าพเจ้า หรือส่งต่อไปยังผู้เกี่ยวข้องเพื่อดำเนินการตามวัตถุประสงค์ *</p>
-                        </label>
-                        <label class="verify-box">
-                            <input name="human_confirm" type="checkbox">
-                            <span>ฉันไม่ใช่โปรแกรมอัตโนมัติ</span>
                         </label>
                         <div class="submit-row">
                             <button class="career-btn" type="submit">สมัครงาน</button>
