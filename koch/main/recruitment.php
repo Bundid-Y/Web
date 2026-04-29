@@ -456,7 +456,7 @@
                         อีเมล: <a href="mailto:salesteam@koch-packaging.com">salesteam@koch-packaging.com</a>
                     </p>
                 </section>
-
+<!--
                 <section class="application-block" id="application-form">
                     <h2 class="application-title">สมัครงาน</h2>
                     <form class="application-form" action="#" method="post" enctype="multipart/form-data">
@@ -488,6 +488,7 @@
                         </div>
                     </form>
                 </section>
+-->
             </section>
         </div>
     </main>
