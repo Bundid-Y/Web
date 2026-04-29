@@ -465,7 +465,7 @@
                     <h3 class="detail-heading contact-apply__title">ติดต่อสมัครงาน</h3>
                     <p class="contact-apply__department">ฝ่ายทรัพยากรบุคคล</p>
                     <p class="contact-apply__lines">
-                        เบอร์: 085-8799795, 090-9542354<br>
+                        เบอร์: 097-8915639<br>
                         อีเมล: <a href="mailto:wachira.o@tnb-logistics.com">wachira.o@tnb-logistics.com</a>
                     </p>
                 </section>
