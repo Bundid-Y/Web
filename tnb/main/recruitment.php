@@ -336,14 +336,14 @@
                 <button class="job-tab is-active" type="button" data-job="truck-driver">
                     <span>
                         <span class="job-tab__title">พนักงานขับรถบรรทุก / รถหัวลาก</span>
-                        <span class="job-tab__meta">ชลบุรี และพื้นที่ให้บริการ</span>
+                        <span class="job-tab__meta">อ.ศรีราชา จ.ชลบุรี</span>
                     </span>
                     <span class="job-tab__arrow">→</span>
                 </button>
                 <button class="job-tab" type="button" data-job="cs-transportation">
                     <span>
                         <span class="job-tab__title">CS Transportation / Manager Transportation</span>
-                        <span class="job-tab__meta">ชลบุรี และพื้นที่ให้บริการ</span>
+                        <span class="job-tab__meta">อ.เมืองชลบุรี จ.ชลบุรี</span>
                     </span>
                     <span class="job-tab__arrow">→</span>
                 </button>
@@ -361,7 +361,7 @@
                     <div class="detail-head">
                         <h2 class="detail-title">พนักงานขับรถบรรทุก / รถหัวลาก</h2>
                         <div class="detail-meta">
-                            <div class="meta-item"><span>สถานที่ปฏิบัติงาน</span><strong>ชลบุรี (ศรีราชา)</strong></div>
+                            <div class="meta-item"><span>สถานที่ปฏิบัติงาน</span><strong>อ.ศรีราชา จ.ชลบุรี</strong></div>
                             <div class="meta-item"><span>ประเภทการจ้างงาน</span><strong>ประจำ</strong></div>
                             <div class="meta-item"><span>เงินเดือน</span><strong>ตามโครงสร้างบริษัทฯ</strong></div>
                         </div>
@@ -400,21 +400,26 @@
                     <div class="detail-section">
                         <h3 class="detail-heading">รายละเอียดงาน</h3>
                         <ol class="detail-list">
-                            <li>ประสานงานขนส่งกับลูกค้า พนักงานขับรถ และทีมปฏิบัติการ</li>
-                            <li>วางแผนและติดตามสถานะงานขนส่งให้เป็นไปตามกำหนดเวลา</li>
-                            <li>ตรวจสอบเอกสารขนส่งและสรุปรายงานการให้บริการประจำวัน</li>
-                            <li>แก้ไขปัญหาเฉพาะหน้าและประสานงานกับหน่วยงานที่เกี่ยวข้อง</li>
-                            <li>ดูแลคุณภาพการให้บริการและสนับสนุนการบริหารทีม Transportation</li>
+                            <li>ติดต่อประสานพนักงานขับรถ Trailer, 6W, 4WJ</li>
+                            <li>วางแผนการจัดรถ</li>
+                            <li>แก้ปัญหาเฉพาะหน้าได้ดี</li>
+                            <li>สามารถเข้ากะ หรือสลับกะได้</li>
+                            <li> อื่นๆ ที่ได้รับมอบหมาย</li>
                         </ol>
                     </div>
                     <div class="detail-section">
                         <h3 class="detail-heading">คุณสมบัติผู้สมัคร</h3>
                         <ol class="detail-list">
-                            <li>มีประสบการณ์ด้านประสานงานขนส่ง โลจิสติกส์ หรือ Customer Service</li>
-                            <li>มีทักษะการสื่อสารและการติดตามงานที่เป็นระบบ</li>
-                            <li>สามารถใช้โปรแกรมสำนักงานและจัดทำรายงานได้ดี</li>
-                            <li>มีความรับผิดชอบ ทำงานภายใต้เวลาที่กำหนด และแก้ไขปัญหาเฉพาะหน้าได้</li>
-                            <li>มีประสบการณ์บริหารทีมขนส่งจะพิจารณาเป็นพิเศษ</li>
+                            <li>เพศ : ชาย</li>
+                            <li>อายุ(ปี) : 25 - 35</li>
+                            <li>ระดับการศึกษา : ปริญญาตรี โลจิสติกส์ หรืออื่นๆ ที่เกี่ยวข้อง</li>
+                            <li>ประสบการณ์(ปี) : อย่างน้อย 2 ปี</li>
+                            <li>มีความละเอียดรอบครอบ</li>
+                            <li>สามารถใช้ Microsoft Office ได้ดี</li>
+                            <li>สามารถรับแรงกดดันได้ดี</li>
+                            <li>หากมีประสบการณ์จะพิจาณาเป็นพิเศษ</li>
+                            <li>สามารถเริ่มงานได้ทันที</li>
+                            <li>วิเคราะห์ปัญหา อุปสรรค และแนวทางแก้ไขปรับปรุง เพื่อให้คล่องตัวและมีประสิทธิภาพสูงสุด</li>
                         </ol>
                     </div>
                 </div>

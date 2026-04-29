@@ -312,14 +312,14 @@
                 <button class="job-tab" type="button" data-job="strategic-planning">
                     <span>
                         <span class="job-tab__title">Strategic Planning (CEO Office)</span>
-                        <span class="job-tab__meta">จ.ชลบุรี</span>
+                        <span class="job-tab__meta">กรุงเทพมหานคร</span>
                     </span>
                     <span class="job-tab__arrow">→</span>
                 </button>
                 <button class="job-tab" type="button" data-job="qa-qc-staff-packaging">
                     <span>
                         <span class="job-tab__title">QA/QC Staff - Packaging</span>
-                        <span class="job-tab__meta">เหมือง, ชลบุรี</span>
+                        <span class="job-tab__meta">อ.เมืองชลบุรี จ.ชลบุรี</span>
                     </span>
                     <span class="job-tab__arrow">→</span>
                 </button>
@@ -411,7 +411,7 @@
                     <div class="detail-head">
                         <h2 class="detail-title">QA/QC Staff - Packaging</h2>
                         <div class="detail-meta">
-                            <div class="meta-item"><span>สถานที่ปฏิบัติงาน</span><strong>เหมือง, ชลบุรี</strong></div>
+                            <div class="meta-item"><span>สถานที่ปฏิบัติงาน</span><strong>อ.เมืองชลบุรี จ.ชลบุรี</strong></div>
                             <div class="meta-item"><span>ประเภทการจ้างงาน</span><strong>ประจำ</strong></div>
                             <div class="meta-item"><span>เงินเดือน</span><strong>ตามโครงสร้างบริษัทฯ</strong></div>
                         </div>
