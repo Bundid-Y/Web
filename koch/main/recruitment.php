@@ -453,7 +453,7 @@
                     <p class="contact-apply__department">ฝ่ายทรัพยากรบุคคล</p>
                     <p class="contact-apply__lines">
                         เบอร์: 097-8915639<br>
-                        อีเมล: <a href="mailto:salesteam@koch-packaging.com">salesteam@koch-packaging.com</a>
+                        อีเมล: <a href="mailto:HRDepartment@koch-packaging.com">HRDepartment@koch-packaging.com</a>
                     </p>
                 </section>
 <!--
