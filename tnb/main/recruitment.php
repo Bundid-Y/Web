@@ -537,6 +537,18 @@
             if (modalBack) {
                 modalBack.addEventListener('click', closeMobileModal);
             }
+
+            window.addEventListener('keydown', (event) => {
+                if (event.key === 'Escape') {
+                    closeMobileModal();
+                }
+            });
+
+            mobileQuery.addEventListener('change', (event) => {
+                if (!event.matches) {
+                    closeMobileModal();
+                }
+            });
         })();
     </script>
 </body>
