@@ -777,3 +777,83 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
+// =========================================
+// Recruitment Page Script
+// =========================================
+(function () {
+            const tabs = document.querySelectorAll('.job-tab');
+            const panels = document.querySelectorAll('.detail-panel');
+            const position = document.getElementById('position');
+            const mobileQuery = window.matchMedia('(max-width: 640px)');
+            const modal = document.getElementById('mobile-job-modal');
+            const modalBody = modal ? modal.querySelector('.mobile-modal-body') : null;
+            const modalBack = modal ? modal.querySelector('.mobile-modal-back') : null;
+            const benefits = document.querySelector('.benefits-section');
+            const contactApply = document.querySelector('.contact-apply');
+            const applicationBlock = document.querySelector('.application-block');
+
+            function selectJob(jobId) {
+                const activePanel = document.getElementById(jobId);
+                tabs.forEach((tab) => tab.classList.toggle('is-active', tab.dataset.job === jobId));
+                panels.forEach((panel) => panel.classList.toggle('is-active', panel.id === jobId));
+                if (position && activePanel) {
+                    position.value = activePanel.dataset.title;
+                }
+            }
+
+            function openMobileModal(jobId) {
+                const activePanel = document.getElementById(jobId);
+                if (!activePanel || !modal || !modalBody) return;
+                selectJob(jobId);
+                modalBody.innerHTML = '';
+                modalBody.appendChild(activePanel.cloneNode(true));
+                if (benefits) {
+                    modalBody.appendChild(benefits.cloneNode(true));
+                }
+                if (contactApply) {
+                    modalBody.appendChild(contactApply.cloneNode(true));
+                }
+                if (applicationBlock) {
+                    modalBody.appendChild(applicationBlock.cloneNode(true));
+                }
+                modal.classList.add('is-open');
+                modal.setAttribute('aria-hidden', 'false');
+                document.body.classList.add('mobile-modal-open');
+                modal.scrollTop = 0;
+            }
+
+            function closeMobileModal() {
+                if (!modal || !modalBody) return;
+                modal.classList.remove('is-open');
+                modal.setAttribute('aria-hidden', 'true');
+                document.body.classList.remove('mobile-modal-open');
+                modalBody.innerHTML = '';
+            }
+
+            tabs.forEach((tab) => {
+                tab.addEventListener('click', () => {
+                    if (mobileQuery.matches) {
+                        openMobileModal(tab.dataset.job);
+                        return;
+                    }
+                    selectJob(tab.dataset.job);
+                });
+            });
+
+            if (modalBack) {
+                modalBack.addEventListener('click', closeMobileModal);
+            }
+
+            window.addEventListener('keydown', (event) => {
+                if (event.key === 'Escape') {
+                    closeMobileModal();
+                }
+            });
+
+            mobileQuery.addEventListener('change', (event) => {
+                if (!event.matches) {
+                    closeMobileModal();
+                }
+            });
+        })();
