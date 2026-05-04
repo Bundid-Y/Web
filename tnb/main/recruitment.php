@@ -43,9 +43,23 @@
                     </span>
                     <span class="job-tab__arrow">→</span>
                 </button>
-                <button class="job-tab" type="button" data-job="cs-transportation">
+                <button class="job-tab" type="button" data-job="manager-transportation">
                     <span>
-                        <span class="job-tab__title">CS Transportation / Manager Transportation</span>
+                        <span class="job-tab__title">Manager Domestic Transportation Management</span>
+                        <span class="job-tab__meta">บางแสน / แหลมฉบัง</span>
+                    </span>
+                    <span class="job-tab__arrow">→</span>
+                </button>
+                <button class="job-tab" type="button" data-job="cs-ImportExport-Transportation">
+                    <span>
+                        <span class="job-tab__title">CS Import / Export Transportation</span>
+                        <span class="job-tab__meta">อ.เมืองชลบุรี จ.ชลบุรี</span>
+                    </span>
+                    <span class="job-tab__arrow">→</span>
+                </button>
+                <button class="job-tab" type="button" data-job="cs-Mikerun-Transportation">
+                    <span>
+                        <span class="job-tab__title">CS Mike Run Transportation</span>
                         <span class="job-tab__meta">อ.เมืองชลบุรี จ.ชลบุรี</span>
                     </span>
                     <span class="job-tab__arrow">→</span>
@@ -67,6 +81,7 @@
                             <div class="meta-item"><span>สถานที่ปฏิบัติงาน</span><strong>อ.ศรีราชา จ.ชลบุรี</strong></div>
                             <div class="meta-item"><span>ประเภทการจ้างงาน</span><strong>ประจำ</strong></div>
                             <div class="meta-item"><span>เงินเดือน</span><strong>ตามโครงสร้างบริษัทฯ</strong></div>
+                            <div class="meta-item"><span>อัตรา</span><strong>รับจำนวนมาก</strong></div>
                         </div>
                     </div>
                     <div class="detail-section">
@@ -92,38 +107,144 @@
                     </div>
                 </div>
 
-                <div class="detail-panel" id="cs-transportation" data-title="CS Transportation / Manager Transportation">
+                <div class="detail-panel" id="manager-transportation" data-title="Manager Domestic Transportation Management">
                     <div class="detail-head">
-                        <h2 class="detail-title">CS Transportation / Manager Transportation</h2>
+                        <h2 class="detail-title">Manager Domestic Transportation Management</h2>
                         <div class="detail-meta">
-                            <div class="meta-item"><span>สถานที่ปฏิบัติงาน</span><strong>อ.เมืองชลบุรี จ.ชลบุรี</strong></div>
+                            <div class="meta-item"><span>สถานที่ปฏิบัติงาน</span><strong>บางแสน / แหลมฉบัง</strong></div>
                             <div class="meta-item"><span>ประเภทการจ้างงาน</span><strong>ประจำ</strong></div>
-                            <div class="meta-item"><span>เงินเดือน</span><strong>ตามโครงสร้างบริษัทฯ</strong></div>
+                            <div class="meta-item"><span>เงินเดือน</span><strong>ตามประสบการณ์ + Incentive</strong></div>
+                            <div class="meta-item"><span>อัตรา</span><strong>1 ตำแหน่ง</strong></div>
                         </div>
                     </div>
                     <div class="detail-section">
                         <h3 class="detail-heading">รายละเอียดงาน</h3>
                         <ol class="detail-list">
-                            <li>ติดต่อประสานพนักงานขับรถ Trailer, 6W, 4WJ</li>
-                            <li>วางแผนการจัดรถ</li>
-                            <li>แก้ปัญหาเฉพาะหน้าได้ดี</li>
-                            <li>สามารถเข้ากะ หรือสลับกะได้</li>
-                            <li> อื่นๆ ที่ได้รับมอบหมาย</li>
+                            <li>ตรวจสอบและสรุปผลงานประจำวันของทุกโปรเจค (Daily Operation Summary)</li>
+                            <li>ควบคุม ดูแล และตรวจสอบพนักงาน/ทีมงาน ให้พร้อมกับการทำงานและมีประสิทธิภาพ</li>
+                            <li>ตรวจสอบ Order / Volume ของแต่ละโปรเจคให้เพียงพอ ครบถ้วน และได้ตาม KPI ที่กำหนด</li>
+                            <li>ติดตามและควบคุมงานให้ได้ตาม KPI ที่กำหนด (On-time, Accuracy, Cost, Service Level)</li>
+                            <li>วิเคราะห์ปัญหาและหาแนวทางแก้ไข เพื่อปรับปรุงประสิทธิภาพการทำงานอย่างต่อเนื่อง</li>
+                            <li>สรุปผลการดำเนินงานและ P&L ของแต่ละโปรเจค</li>
+                            <li>จัดทำรายงานและนำเสนอผลการดำเนินงาน พร้อมแนวทาง Improvement ต่อผู้บริหาร</li>
+                            <li>วางแผนพัฒนาและเพิ่มประสิทธิภาพกระบวนการทำงานทั้งด้านคน รถ และระบบ</li>
+                        </ol>
+                    </div>
+                    <div class="detail-section">
+                        <h3 class="detail-heading">สิ่งที่เรามองหา</h3>
+                        <ol class="detail-list">
+                            <li>ผู้นำที่สามารถขับเคลื่อนทีมและสร้างผลลัพธ์ได้</li>
+                            <li>คนที่ชอบวิเคราะห์ แก้ปัญหา และคิดเชิงปรับปรุง</li>
+                            <li>มุ่งเน้น KPI และการเติบโตขององค์กรอย่างยั่งยืน</li>
+                            <li>มีความรับผิดชอบสูง และบริหารจัดการเวลาได้ดี</li>
                         </ol>
                     </div>
                     <div class="detail-section">
                         <h3 class="detail-heading">คุณสมบัติผู้สมัคร</h3>
                         <ol class="detail-list">
-                            <li>เพศ : ชาย</li>
-                            <li>อายุ(ปี) : 25 - 35</li>
-                            <li>ระดับการศึกษา : ปริญญาตรี โลจิสติกส์ หรืออื่นๆ ที่เกี่ยวข้อง</li>
-                            <li>ประสบการณ์(ปี) : อย่างน้อย 2 ปี</li>
-                            <li>มีความละเอียดรอบครอบ</li>
-                            <li>สามารถใช้ Microsoft Office ได้ดี</li>
-                            <li>สามารถรับแรงกดดันได้ดี</li>
-                            <li>หากมีประสบการณ์จะพิจาณาเป็นพิเศษ</li>
-                            <li>สามารถเริ่มงานได้ทันที</li>
-                            <li>วิเคราะห์ปัญหา อุปสรรค และแนวทางแก้ไขปรับปรุง เพื่อให้คล่องตัวและมีประสิทธิภาพสูงสุด</li>
+                            <li>ปริญญาตรีขึ้นไป สาขา Logistics, Supply Chain, บริหารธุรกิจ หรือสาขาที่เกี่ยวข้อง</li>
+                            <li>มีประสบการณ์บริหารงานขนส่งภายในประเทศอย่างน้อย 3-5 ปี ในตำแหน่ง Manager ขึ้นไป</li>
+                            <li>มีทักษะการวิเคราะห์ข้อมูล, KPI, P&L และการทำ Report</li>
+                            <li>มีภาวะผู้นำ สื่อสารและประสานงานได้ดี</li>
+                            <li>ใช้ Excel ขั้นสูง / Power BI / ระบบต่าง ๆ ได้ดี</li>
+                            <li>มีความเป็นระบบ คิดเชิงกลยุทธ์ และมุ่งเน้นผลลัพธ์</li>
+                            <li>สามารถทำงานภายใต้แรงกดดัน และบริหารจัดการหลายโปรเจคได้</li>
+                        </ol>
+                    </div>
+                    <div class="detail-section">
+                        <h3 class="detail-heading">ตัวชี้วัดหลัก (KPIs)</h3>
+                        <ol class="detail-list">
+                            <li>On-time Delivery</li>
+                            <li>Order Accuracy</li>
+                            <li>Cost Control</li>
+                            <li>Team Performance</li>
+                            <li>P&L Performance</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="detail-panel" id="cs-ImportExport-Transportation" data-title="CS Import/Export Transportation">
+                    <div class="detail-head">
+                        <h2 class="detail-title">Customer Service (CS) - Import / Export Transport</h2>
+                        <div class="detail-meta">
+                            <div class="meta-item"><span>สถานที่ปฏิบัติงาน</span><strong>บางแสน / แหลมฉบัง</strong></div>
+                            <div class="meta-item"><span>ประเภทการจ้างงาน</span><strong>ประจำ</strong></div>
+                            <div class="meta-item"><span>เงินเดือน</span><strong>ตามประสบการณ์ + Incentive</strong></div>
+                            <div class="meta-item"><span>อัตรา</span><strong>1 ตำแหน่ง</strong></div>
+                        </div>
+                    </div>
+                    <div class="detail-section">
+                        <h3 class="detail-heading">รายละเอียดงาน</h3>
+                        <ol class="detail-list">
+                            <li>ประสานงานลูกค้า / สายเรือ / ท่าเรือ / รถขนส่ง</li>
+                            <li>วางแผนและติดตามการ "เปิดตู้ - รับตู้ - ส่งตู้"</li>
+                            <li>ควบคุม Timeline งานขนส่ง (Import / Export) ให้ตรงตามแผน</li>
+                            <li>ดูแลการนำตู้สินค้าไปบรรจุ (Stuffing) และคืนตู้ (Return Container)</li>
+                            <li>ควบคุมเวลาการเอาตู้ลงท่า (Port In) และหลีกเลี่ยงค่า Demurrage / Detention</li>
+                            <li>แก้ไขปัญหาเฉพาะหน้า และ Update สถานะงาน ให้ลูกค้าแบบ Real-time</li>
+                        </ol>
+                    </div>
+                    <div class="detail-section">
+                        <h3 class="detail-heading">คุณสมบัติผู้สมัคร</h3>
+                        <ol class="detail-list">
+                            <li>มีประสบการณ์งาน CS / Shipping / Logistics อย่างน้อย 1-3 ปี</li>
+                            <li>เข้าใจกระบวนการนำเข้า-ส่งออก และงานตู้คอนเทนเนอร์</li>
+                            <li>สามารถประสานงานหลายฝ่ายได้ดี และทำงานภายใต้แรงกดดันได้</li>
+                            <li>มีความละเอียด รอบคอบ และมี sense เรื่องเวลา (Timeline Control)</li>
+                            <li>ใช้ Excel / ระบบ / Line / Email ได้คล่อง</li>
+                            <li>หากเคยทำงานเกี่ยวกับท่าเรือ หรือสายเรือ จะพิจารณาเป็นพิเศษ</li>
+                        </ol>
+                    </div>
+                    <div class="detail-section">
+                        <h3 class="detail-heading">สิ่งที่เรามองหา</h3>
+                        <ol class="detail-list">
+                            <li>คนที่ "เอางานอยู่" และ "คุมสถานการณ์ได้"</li>
+                            <li>คิดเป็นระบบ แก้ปัญหาไว</li>
+                            <li>รับผิดชอบงานจนจบ ไม่ปล่อยให้หลุด Timeline</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="detail-panel" id="cs-Mikerun-Transportation" data-title="CS Mikerun Transportation">
+                    <div class="detail-head">
+                        <h2 class="detail-title">Customer Service (CS) - Milk Run Transport</h2>
+                        <div class="detail-meta">
+                            <div class="meta-item"><span>สถานที่ปฏิบัติงาน</span><strong>บางแสน / แหลมฉบัง</strong></div>
+                            <div class="meta-item"><span>ประเภทการจ้างงาน</span><strong>ประจำ</strong></div>
+                            <div class="meta-item"><span>เงินเดือน</span><strong>ตามประสบการณ์ + Incentive</strong></div>
+                            <div class="meta-item"><span>อัตรา</span><strong>1 ตำแหน่ง</strong></div>
+                        </div>
+                    </div>
+                    <div class="detail-section">
+                        <h3 class="detail-heading">รายละเอียดงาน</h3>
+                        <ol class="detail-list">
+                            <li>วางแผนและควบคุมงาน Milk Run Transport ตามรอบวิ่งที่กำหนด</li>
+                            <li>ตรวจสอบและติดตาม Order / Schedule การรับ-ส่งสินค้า</li>
+                            <li>Monitor และบันทึก เวลามาถึง (Arrival) / เวลาส่ง (Delivery Time)</li>
+                            <li>ทำ Daily Report สรุปผลการวิ่งงาน / ปัญหา / KPI</li>
+                            <li>ตรวจสอบความพร้อมพนักงานขับรถและการเข้าทำงาน</li>
+                            <li>ตรวจสอบ Checklist รถก่อนวิ่งงาน (Pre-Trip Inspection)</li>
+                            <li>ประสานงานกับลูกค้า เพื่อให้การส่งมอบตรงเวลา (On-time Delivery)</li>
+                            <li>แก้ไขปัญหาเฉพาะหน้า และ Update สถานะงานแบบ Real-time</li>
+                        </ol>
+                    </div>
+                    <div class="detail-section">
+                        <h3 class="detail-heading">คุณสมบัติผู้สมัคร</h3>
+                        <ol class="detail-list">
+                            <li>มีประสบการณ์งาน CS / Logistics / Transport อย่างน้อย 1-3 ปี</li>
+                            <li>เข้าใจงาน Milk Run / Distribution / Route Planning</li>
+                            <li>มีทักษะการควบคุมเวลา และติดตามงาน (Strong Timeline Control)</li>
+                            <li>ใช้ Excel / Line / Email / ระบบ Tracking ได้ดี</li>
+                            <li>สามารถทำงานภายใต้แรงกดดัน และแก้ปัญหาเฉพาะหน้าได้</li>
+                            <li>หากมีประสบการณ์ควบคุมรถขนส่งจะพิจารณาเป็นพิเศษ</li>
+                        </ol>
+                    </div>
+                    <div class="detail-section">
+                        <h3 class="detail-heading">สิ่งที่เรามองหา</h3>
+                        <ol class="detail-list">
+                            <li>คนที่ "คุมงานวิ่งได้จริง" และ "ไม่ปล่อยงานหลุดเวลา"</li>
+                            <li>ละเอียด รอบคอบ และทำ Report ได้ชัดเจน</li>
+                            <li>สื่อสารกับลูกค้าและทีมขับรถได้ดี</li>
                         </ol>
                     </div>
                 </div>
@@ -135,7 +256,7 @@
                             <div class="meta-item"><span>สถานที่ปฏิบัติงาน</span><strong>อ.ศรีราชา จ.ชลบุรี</strong></div>
                             <div class="meta-item"><span>ประเภทการจ้างงาน</span><strong>ประจำ</strong></div>
                             <div class="meta-item"><span>เงินเดือน</span><strong>ตามโครงสร้างบริษัทฯ</strong></div>
-                            <div class="meta-item"><span>อัตรา</span><strong>ตามโครงสร้างบริษัทฯ</strong></div>
+                            <div class="meta-item"><span>อัตรา</span><strong>2 ตำแหน่ง</strong></div>
                         </div>
                     </div>
                     <div class="detail-section">
