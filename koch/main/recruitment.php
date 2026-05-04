@@ -37,7 +37,7 @@
                 <button class="job-tab is-active" type="button" data-job="hr-supervisor">
                     <span class="job-tab__urgent">🔥 รับด่วน</span>
                     <span>
-                        <span class="job-tab__title">HR Supervisor</span>
+                        <span class="job-tab__title">HR Supervisor [Smart Look & under 30 years]</span>
                         <span class="job-tab__meta">อ.เมืองชลบุรี จ.ชลบุรี</span>
                     </span>
                     <span class="job-tab__arrow">→</span>
