@@ -87,7 +87,7 @@
                     </div>
                     <div class="contact-text-group">
                         <h4 data-i18n="contact.phone_label">Container Truck Management (Import&Export)</h4>
-                        <p>Phone : 090-9542354 (คุณโอ)<br>Email : wachira.o@tnb-logistics.com</p>
+                        <p>Phone : 090-9542354 <span data-i18n="contact.name_o">(คุณโอ)</span><br>Email : wachira.o@tnb-logistics.com</p>
                     </div>
                 </div>
 
@@ -102,7 +102,7 @@
                     </div>
                     <div class="contact-text-group">
                         <h4 data-i18n="contact.email_label">Domestic Truck Management (Milkrun&Nationwide Distribution)</h4>
-                        <p>Phone : 085-8799795 (คุณเติ้ล)<br>Email : alisa.j@tnb-logistics.com</p>
+                        <p>Phone : 085-8799795 <span data-i18n="contact.name_tle">(คุณเติ้ล)</span><br>Email : alisa.j@tnb-logistics.com</p>
                     </div>
                 </div>
 

@@ -85,8 +85,10 @@
         "intro": "我们随时准备为您提供全面、现代化的物流咨询与服务，满足您所有的业务需求。请通过以下渠道与我们联系。",
         "address_label": "办公地址",
         "address": "泰国春武里府孟春武里县猛区5号村18\/2号，邮编20130",
-        "phone_label": "销售联系",
-        "email_label": "电子邮件"
+        "phone_label": "Container Truck Management (Import&Export)",
+        "email_label": "Domestic Truck Management (Milkrun&Nationwide Distribution)",
+        "name_o": "(O先生/女士)",
+        "name_tle": "(Tle先生/女士)"
     },
     "technology": {
         "title": "我们的技术",

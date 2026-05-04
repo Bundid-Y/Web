@@ -86,7 +86,9 @@
         "address_label": "ที่อยู่สำนักงาน",
         "address": "18\/2 หมู่ที่ 5 ตำบลเหมือง อำเภอเมืองชลบุรี จังหวัดชลบุรี 20130",
         "phone_label": "Container Truck Management (Import&Export)",
-        "email_label": "Domestic Truck Management (Milkrun&Nationwide Distribution)"
+        "email_label": "Domestic Truck Management (Milkrun&Nationwide Distribution)",
+        "name_o": "(คุณโอ)",
+        "name_tle": "(คุณเติ้ล)"
     },
     "technology": {
         "title": "เทคโนโลยีของเรา",

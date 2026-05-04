@@ -85,8 +85,10 @@
         "intro": "We are ready to provide comprehensive, modern logistics consulting and services to meet all your business needs. Contact us for more information through the channels below.",
         "address_label": "Office Address",
         "address": "18\/2 Moo 5, Mueang Sub-district, Mueang Chonburi District, Chonburi 20130",
-        "phone_label": "Sales Contact",
-        "email_label": "Email"
+        "phone_label": "Container Truck Management (Import&Export)",
+        "email_label": "Domestic Truck Management (Milkrun&Nationwide Distribution)",
+        "name_o": "(Khun O)",
+        "name_tle": "(Khun Tle)"
     },
     "technology": {
         "title": "Our Technology",

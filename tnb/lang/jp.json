@@ -85,8 +85,10 @@
         "intro": "包括的で最新のロジスティクスコンサルティングとサービスを提供いたします。下記チャンネルよりお気軽にお問い合わせください。",
         "address_label": "オフィス所在地",
         "address": "タイ チョンブリー県 ムアンチョンブリー区 ムアンサブ地区5村 18\/2号 郵便番号20130",
-        "phone_label": "営業担当",
-        "email_label": "メールアドレス"
+        "phone_label": "Container Truck Management (Import&Export)",
+        "email_label": "Domestic Truck Management (Milkrun&Nationwide Distribution)",
+        "name_o": "(Oさん)",
+        "name_tle": "(Tleさん)"
     },
     "technology": {
         "title": "私たちのテクノロジー",
