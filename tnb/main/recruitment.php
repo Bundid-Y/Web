@@ -37,6 +37,7 @@
             <aside class="job-rail" aria-label="รายการตำแหน่งงาน">
                 <h2 class="rail-title">ตำแหน่งงาน</h2>
                 <button class="job-tab is-active" type="button" data-job="truck-driver">
+                    <span class="job-tab__urgent">🔥 รับด่วน</span>
                     <span>
                         <span class="job-tab__title">พนักงานขับรถบรรทุก / รถหัวลาก</span>
                         <span class="job-tab__meta">อ.ศรีราชา จ.ชลบุรี</span>
@@ -44,6 +45,7 @@
                     <span class="job-tab__arrow">→</span>
                 </button>
                 <button class="job-tab" type="button" data-job="manager-transportation">
+                    <span class="job-tab__urgent">🔥 รับด่วน</span>
                     <span>
                         <span class="job-tab__title">Manager Domestic Transportation Management</span>
                         <span class="job-tab__meta">บางแสน / แหลมฉบัง</span>
@@ -51,6 +53,7 @@
                     <span class="job-tab__arrow">→</span>
                 </button>
                 <button class="job-tab" type="button" data-job="cs-ImportExport-Transportation">
+                    <span class="job-tab__urgent">🔥 รับด่วน</span>
                     <span>
                         <span class="job-tab__title">CS Import / Export Transportation</span>
                         <span class="job-tab__meta">อ.เมืองชลบุรี จ.ชลบุรี</span>
@@ -58,6 +61,7 @@
                     <span class="job-tab__arrow">→</span>
                 </button>
                 <button class="job-tab" type="button" data-job="cs-Mikerun-Transportation">
+                    <span class="job-tab__urgent">🔥 รับด่วน</span>
                     <span>
                         <span class="job-tab__title">CS Mike Run Transportation</span>
                         <span class="job-tab__meta">อ.เมืองชลบุรี จ.ชลบุรี</span>
@@ -65,6 +69,7 @@
                     <span class="job-tab__arrow">→</span>
                 </button>
                 <button class="job-tab" type="button" data-job="truck-mechanic">
+                    <span class="job-tab__urgent">🔥 รับด่วน</span>
                     <span>
                         <span class="job-tab__title">ช่างยนต์ และ ช่างไฟ (รถบรรทุก & รถหัวลาก)</span>
                         <span class="job-tab__meta">อ.ศรีราชา จ.ชลบุรี</span>

@@ -34,6 +34,7 @@
             <aside class="job-rail" aria-label="รายการตำแหน่งงาน">
                 <h2 class="rail-title">ตำแหน่งงาน</h2>
                 <button class="job-tab is-active" type="button" data-job="purchasing-manager">
+                    <span class="job-tab__urgent">🔥 รับด่วน</span>
                     <span>
                         <span class="job-tab__title">Purchasing Assistant Manager / Manager</span>
                         <span class="job-tab__meta">อ.เมืองชลบุรี จ.ชลบุรี</span>
@@ -41,6 +42,7 @@
                     <span class="job-tab__arrow">→</span>
                 </button>
                 <button class="job-tab" type="button" data-job="strategic-planning">
+                    <span class="job-tab__urgent">🔥 รับด่วน</span>
                     <span>
                         <span class="job-tab__title">Strategic Planning (CEO Office)</span>
                         <span class="job-tab__meta">กรุงเทพมหานคร</span>
@@ -48,6 +50,7 @@
                     <span class="job-tab__arrow">→</span>
                 </button>
                 <button class="job-tab" type="button" data-job="qa-qc-staff-packaging">
+                    <span class="job-tab__urgent">🔥 รับด่วน</span>
                     <span>
                         <span class="job-tab__title">QA/QC Staff - Packaging</span>
                         <span class="job-tab__meta">อ.เมืองชลบุรี จ.ชลบุรี</span>

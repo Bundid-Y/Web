@@ -10501,6 +10501,7 @@ body.page-trucktypes .truck-card__body {
         .rail-title { margin: 0 0 14px; color: var(--career-text); font-size: 18px; font-weight: 800; }
         .job-tab {
             width: 100%;
+            position: relative;
             display: grid;
             grid-template-columns: 1fr 28px;
             gap: 12px;
@@ -10510,6 +10511,7 @@ body.page-trucktypes .truck-card__body {
             border-radius: 12px;
             background: #fff;
             padding: 14px;
+            padding-top: 26px;
             margin: 0 0 12px;
             color: var(--career-text);
             text-align: left;
@@ -10517,6 +10519,28 @@ body.page-trucktypes .truck-card__body {
             font: inherit;
             box-shadow: 0 10px 25px rgba(18, 31, 53, .05);
             transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease, background-color .18s ease;
+        }
+        .job-tab__urgent {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            padding: 3px 9px;
+            background: linear-gradient(90deg, #e53935, #ff6f00);
+            color: #fff;
+            font-size: 10px;
+            font-weight: 800;
+            letter-spacing: .04em;
+            border-radius: 11px 0 8px 0;
+            white-space: nowrap;
+            box-shadow: 0 2px 6px rgba(229,57,53,.35);
+            animation: urgentPulse 1.8s ease-in-out infinite;
+        }
+        @keyframes urgentPulse {
+            0%, 100% { box-shadow: 0 2px 6px rgba(229,57,53,.35); }
+            50% { box-shadow: 0 2px 12px rgba(229,57,53,.65); }
         }
         .job-tab__title { display: block; font-size: 14px; line-height: 1.35; font-weight: 800; transition: color .18s ease; }
         .job-tab__meta { display: block; margin-top: 4px; color: var(--career-muted); font-size: 12px; line-height: 1.35; }
