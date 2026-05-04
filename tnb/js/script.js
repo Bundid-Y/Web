@@ -817,6 +817,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (applicationBlock) {
                     modalBody.appendChild(applicationBlock.cloneNode(true));
                 }
+                
+                // Move elements with 'mobile-move-bottom' class to the very bottom
+                const moveBottomEls = modalBody.querySelectorAll('.mobile-move-bottom');
+                moveBottomEls.forEach(el => modalBody.appendChild(el));
+
                 modal.classList.add('is-open');
                 modal.setAttribute('aria-hidden', 'false');
                 document.body.classList.add('mobile-modal-open');
