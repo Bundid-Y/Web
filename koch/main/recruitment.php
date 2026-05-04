@@ -64,6 +64,7 @@
                             <div class="meta-item"><span>สถานที่ปฏิบัติงาน</span><strong>อ.เมืองชลบุรี จ.ชลบุรี</strong></div>
                             <div class="meta-item"><span>ประเภทการจ้างงาน</span><strong>ประจำ</strong></div>
                             <div class="meta-item"><span>เงินเดือน</span><strong>ตามโครงสร้างบริษัทฯ</strong></div>
+                            <div class="meta-item"><span>อัตรา</span><strong>2 ตำแหน่ง</strong></div>
                         </div>
                     </div>
                     <div class="detail-section">
@@ -102,6 +103,7 @@
                             <div class="meta-item"><span>สถานที่ปฏิบัติงาน</span><strong>กรุงเทพมหานคร</strong></div>
                             <div class="meta-item"><span>ประเภทการจ้างงาน</span><strong>ประจำ</strong></div>
                             <div class="meta-item"><span>เงินเดือน</span><strong>ตามโครงสร้างบริษัทฯ</strong></div>
+                            <div class="meta-item"><span>อัตรา</span><strong>4 ตำแหน่ง</strong></div>
                         </div>
                     </div>
                     <div class="detail-section">
@@ -145,6 +147,7 @@
                             <div class="meta-item"><span>สถานที่ปฏิบัติงาน</span><strong>อ.เมืองชลบุรี จ.ชลบุรี</strong></div>
                             <div class="meta-item"><span>ประเภทการจ้างงาน</span><strong>ประจำ</strong></div>
                             <div class="meta-item"><span>เงินเดือน</span><strong>ตามโครงสร้างบริษัทฯ</strong></div>
+                            <div class="meta-item"><span>อัตรา</span><strong>2 ตำแหน่ง</strong></div>
                         </div>
                     </div>
                     <div class="detail-section">
