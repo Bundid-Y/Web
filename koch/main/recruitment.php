@@ -57,6 +57,14 @@
                     </span>
                     <span class="job-tab__arrow">→</span>
                 </button>
+                <button class="job-tab" type="button" data-job="hr-supervisor">
+                    <span class="job-tab__urgent">🔥 รับด่วน</span>
+                    <span>
+                        <span class="job-tab__title">HR Supervisor</span>
+                        <span class="job-tab__meta">อ.เมืองชลบุรี จ.ชลบุรี</span>
+                    </span>
+                    <span class="job-tab__arrow">→</span>
+                </button>
             </aside>
 
             <section class="content-panel">
@@ -169,6 +177,43 @@
                             <li>ใช้โปรแกรม Microsoft Office เบื้องต้นได้ดี (Word, Excel)</li>
                             <li>มีความรับผิดชอบในงานที่ได้รับมอบหมาย</li>
                             <li>เริ่มงานได้ทันที จะพิจารณาเป็นพิเศษ</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="detail-panel" id="hr-supervisor" data-title="HR Supervisor">
+                    <div class="detail-head">
+                        <h2 class="detail-title">HR Supervisor</h2>
+                        <div class="detail-meta">
+                            <div class="meta-item"><span>สถานที่ปฏิบัติงาน</span><strong>อ.เมืองชลบุรี จ.ชลบุรี</strong></div>
+                            <div class="meta-item"><span>ประเภทการจ้างงาน</span><strong>ประจำ</strong></div>
+                            <div class="meta-item"><span>เงินเดือน</span><strong>ตามโครงสร้างบริษัทฯ</strong></div>
+                            <div class="meta-item"><span>อัตรา</span><strong>1 ตำแหน่ง</strong></div>
+                        </div>
+                    </div>
+                    <div class="detail-section">
+                        <h3 class="detail-heading">รายละเอียดงาน</h3>
+                        <ol class="detail-list">
+                            <li><strong>การสรรหาและวางแผนอัตรากำลัง</strong><br>ดูแลกระบวนการสรรหาทั้งหมดตั้งแต่ต้นจนจบ<br> ประสานงานกับหัวหน้าแผนกเพื่อวิเคราะห์ความต้องการบุคลากร<br>สัมภาษณ์ คัดกรอง และเสนอแนะการจ้างงาน</li>
+                            <li><strong>แรงงานสัมพันธ์และวินัยพนักงาน</strong><br>ดูแลปัญหาพนักงาน รับข้อร้องเรียน ให้คำปรึกษา และดำเนินการทางวินัย<br> สื่อสารกฎระเบียบของบริษัทให้ชัดเจน<br> ส่งเสริมความสัมพันธ์และบรรยากาศการทำงานที่ดี</li>
+                            <li><strong>งานบริหาร HR และเอกสาร</strong><br>ดูแลงานเวลาเข้างาน/ลงเวลาทำงาน ลา OT และสวัสดิการ<br>ตรวจสอบข้อมูล Payroll ก่อนส่งฝ่ายบัญชี<br>จัดเก็บและอัปเดตแฟ้มพนักงาน สัญญา วันสิ้นสุดทดลองงาน</li>
+                            <li><strong>การฝึกอบรมและพัฒนา</strong><br>ร่วมวางแผนความต้องการฝึกอบรมกับแต่ละแผนก<br>ประสานงานอบรม จัดตาราง และเก็บข้อมูลประวัติการอบรม<br>ดูแลความสอดคล้องตามกฎหมาย/ข้อกำหนด (Safety, Forklift, ISO, TSM)</li>
+                            <li><strong>ระบบประเมินผลและ KPI</strong><br>ดูแลกระบวนการประเมินผลประจำปีและ KPI<br>ประสานการตั้งเป้าหมายร่วมกับผู้จัดการแผนก<br>ทำรายงาน HR Dashboard รายเดือนเสนอผู้บริหาร</li>
+                            <li><strong>นโยบาย HR, กฎหมายแรงงาน และ ISO</strong><br>ดูแลความถูกต้องตามกฎหมายแรงงานและนโยบายบริษัท<br>เตรียมเอกสารรองรับการ Audit ทั้งภายในและภายนอก<br>อัปเดตเอกสาร HR, SOP/WI และโครงสร้างองค์กร</li>
+                        </ol>
+                    </div>
+                    <div class="detail-section">
+                        <h3 class="detail-heading">คุณสมบัติผู้สมัคร</h3>
+                        <ol class="detail-list">
+                            <li>อายุ 28–38 ปี มีประสบการณ์เพียงพอในการบริหาร HR และเข้าใจงานโรงงาน + ขนส่ง</li>
+                            <li>ประสบการณ์งาน HR 4–8 ปี (ระดับ Supervisor/Assistant Manager จะพิจารณาเป็นพิเศษ)</li>
+                            <li>มีความรู้กฎหมายแรงงานไทยเป็นอย่างดี</li>
+                            <li>หากมีประสบการณ์ ISO 9001 / 14001 จะได้รับการพิจารณา</li>
+                            <li>ทักษะการสื่อสาร การให้คำปรึกษา และการแก้ปัญหาที่ดี</li>
+                            <li>สามารถดูแลงานหลายไซต์ เช่น KOCH, TNB, หน้างานขนส่ง/โรงงาน</li>
+                            <li>ใช้ Excel/Pivot และ Google Workspace ได้ดี</li>
+                            <li>มีภาวะผู้นำ รับผิดชอบสูง และทัศนคติดี</li>
+                            <li>ปริญญาตรีสาขาบริหารทรัพยากรมนุษย์ บริหารธุรกิจ หรือสาขาที่เกี่ยวข้อง</li>
                         </ol>
                     </div>
                 </div>
