@@ -240,7 +240,7 @@
                         อีเมล: <a href="mailto:HRDepartment@koch-packaging.com">HRDepartment@koch-packaging.com</a>
                     </p>
                 </section>
-<!--
+
                 <section class="application-block" id="application-form">
                     <h2 class="application-title">สมัครงาน</h2>
                     <form class="application-form" action="#" method="post" enctype="multipart/form-data">
@@ -259,7 +259,7 @@
                             </div>
                             <div class="form-field form-field--full file-field">
                                 <label for="resume">เรซูเม่ / ประวัติการทำงาน*</label>
-                                <input id="resume" name="resume" type="file" accept=".pdf,.doc,.docx,.jpg,.jpeg,.png" required>
+                                <input id="resume" name="resume" type="file" accept=".pdf,.doc,.docx,.jpg,.jpeg,.png" required style="color: transparent;" onchange="this.nextElementSibling.textContent = this.files[0] ? this.files[0].name : 'อัปโหลด'">
                                 <span class="file-hint">อัปโหลด</span>
                             </div>
                         </div>
@@ -272,7 +272,7 @@
                         </div>
                     </form>
                 </section>
--->
+
             </section>
         </div>
     </main>
