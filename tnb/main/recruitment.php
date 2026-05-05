@@ -123,7 +123,7 @@
                         </div>
                     </div>
                     <div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start;">
-                        <div style="flex: 1 1 300px;">
+                        <div style="flex: 1 1 300px; min-width: 0; word-break: break-word;">
                             <div class="detail-section">
                                 <h3 class="detail-heading">รายละเอียดงาน</h3>
                                 <ol class="detail-list">
@@ -186,7 +186,7 @@
                         </div>
                     </div>
                     <div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start;">
-                        <div style="flex: 1 1 300px;">
+                        <div style="flex: 1 1 300px; min-width: 0; word-break: break-word;">
                             <div class="detail-section">
                                 <h3 class="detail-heading">รายละเอียดงาน</h3>
                                 <ol class="detail-list">
@@ -235,7 +235,7 @@
                         </div>
                     </div>
                     <div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start;">
-                        <div style="flex: 1 1 300px;">
+                        <div style="flex: 1 1 300px; min-width: 0; word-break: break-word;">
                             <div class="detail-section">
                                 <h3 class="detail-heading">รายละเอียดงาน</h3>
                                 <ol class="detail-list">

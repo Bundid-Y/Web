@@ -15,7 +15,7 @@
     <meta property="og:image" content="https://koch-packaging-services.com/img/company_logo/logo-2.png" />
     <link rel="icon" type="image/png" href="../img/company_logo/logo-2.png" />
     <script>window.KOCH_DEPTH = '../';</script>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css?v=<?php echo time(); ?>">
     <script src="../js/i18n.js" defer></script>
     <script src="../js/script.js" defer></script>
 </head>
