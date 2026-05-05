@@ -169,7 +169,7 @@
                                 </ol>
                             </div>
                         </div>
-                        <div class="mobile-move-bottom" style="flex: 0 0 250px; max-width: 100%; text-align: center; margin-top: 20px;">
+                        <div class="mobile-move-top" style="flex: 0 0 250px; max-width: 100%; text-align: center; margin-top: 20px;">
                             <img src="../img/recruitment/cs-manager.jpg" alt="Manager Domestic Transportation Management" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); cursor: pointer;" onclick="openLightbox(this.src)">
                         </div>
                     </div>
@@ -218,7 +218,7 @@
                                 </ol>
                             </div>
                         </div>
-                        <div class="mobile-move-bottom" style="flex: 0 0 250px; max-width: 100%; text-align: center; margin-top: 20px;">
+                        <div class="mobile-move-top" style="flex: 0 0 250px; max-width: 100%; text-align: center; margin-top: 20px;">
                             <img src="../img/recruitment/cs-importexport.jpg" alt="CS Import/Export Transportation" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); cursor: pointer;" onclick="openLightbox(this.src)">
                         </div>
                     </div>
@@ -269,7 +269,7 @@
                                 </ol>
                             </div>
                         </div>
-                        <div class="mobile-move-bottom" style="flex: 0 0 250px; max-width: 100%; text-align: center; margin-top: 20px;">
+                        <div class="mobile-move-top" style="flex: 0 0 250px; max-width: 100%; text-align: center; margin-top: 20px;">
                             <img src="../img/recruitment/cs-mikerun.jpg" alt="CS Milk Run Transport" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); cursor: pointer;" onclick="openLightbox(this.src)">
                         </div>
                     </div>
