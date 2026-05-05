@@ -6276,7 +6276,7 @@ html:not([lang="th"]) .page-vision .vision-desc strong {
             align-items: center;
             gap: 4px;
             padding: 3px 9px;
-            background: linear-gradient(90deg, #e53935, #ff6f00);
+            background: linear-gradient(90deg, #bd3516, #82c201);
             color: #fff;
             font-size: 10px;
             font-weight: 800;
