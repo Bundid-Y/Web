@@ -57,7 +57,7 @@
         }
     </style>
     <script src="../js/i18n.js" defer></script>
-    <script src="../js/script.js" defer></script>
+    <script src="../js/script.js?v=<?php echo time(); ?>" defer></script>
 </head>
 
 <body class="page-recruitment">

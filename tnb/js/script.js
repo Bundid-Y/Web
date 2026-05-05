@@ -785,7 +785,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const tabs = document.querySelectorAll('.job-tab');
             const panels = document.querySelectorAll('.detail-panel');
             const position = document.getElementById('position');
-            const mobileQuery = window.matchMedia('(max-width: 640px)');
+            const mobileQuery = window.matchMedia('(max-width: 640px), (min-width: 641px) and (max-width: 780px) and (min-height: 900px) and (max-height: 1140px), (min-width: 900px) and (max-width: 1140px) and (min-height: 641px) and (max-height: 780px)');
             const modal = document.getElementById('mobile-job-modal');
             const modalBody = modal ? modal.querySelector('.mobile-modal-body') : null;
             const modalBack = modal ? modal.querySelector('.mobile-modal-back') : null;
