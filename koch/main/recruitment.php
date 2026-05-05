@@ -46,7 +46,7 @@
                 <button class="job-tab" type="button" data-job="purchasing-manager">
                     
                     <span>
-                        <span class="job-tab__title">Purchasing Assistant Manager / Manager</span>
+                        <span class="job-tab__title">Purchasing Assistant Manager</span>
                         <span class="job-tab__meta">อ.เมืองชลบุรี จ.ชลบุรี</span>
                     </span>
                     <span class="job-tab__arrow">→</span>
@@ -107,14 +107,14 @@
                     </div>
                 </div>
 
-                <div class="detail-panel" id="purchasing-manager" data-title="Purchasing Assistant Manager / Manager">
+                <div class="detail-panel" id="purchasing-manager" data-title="Purchasing Assistant Manager">
                     <div class="detail-head">
-                        <h2 class="detail-title">Purchasing Assistant Manager / Manager</h2>
+                        <h2 class="detail-title">Purchasing Assistant Manager</h2>
                         <div class="detail-meta">
                             <div class="meta-item"><span>สถานที่ปฏิบัติงาน</span><strong>อ.เมืองชลบุรี จ.ชลบุรี</strong></div>
                             <div class="meta-item"><span>ประเภทการจ้างงาน</span><strong>ประจำ</strong></div>
                             <div class="meta-item"><span>เงินเดือน</span><strong>ตามโครงสร้างบริษัทฯ</strong></div>
-                            <div class="meta-item"><span>อัตรา</span><strong>2 ตำแหน่ง</strong></div>
+                            <div class="meta-item"><span>อัตรา</span><strong>1 ตำแหน่ง</strong></div>
                         </div>
                     </div>
                     <div class="detail-section">
