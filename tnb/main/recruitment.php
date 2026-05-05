@@ -19,6 +19,43 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sarabun:wght@300;400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css?v=<?php echo time(); ?>">
+    <style>
+        body.page-recruitment .job-rail {
+            font-family: "Inter", "Sarabun", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            font-feature-settings: "kern" 1, "liga" 1;
+        }
+
+        body.page-recruitment .job-rail .rail-title {
+            font-family: "Sarabun", "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            font-weight: 700;
+            line-height: 1.35;
+        }
+
+        body.page-recruitment .job-rail .job-tab__title {
+            font-family: "Inter", "Sarabun", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 1.48;
+            letter-spacing: 0;
+            overflow-wrap: break-word;
+            word-break: normal;
+            hyphens: auto;
+        }
+
+        body.page-recruitment .job-rail .job-tab__meta {
+            font-family: "Sarabun", "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            font-size: 12.5px;
+            font-weight: 500;
+            line-height: 1.45;
+        }
+
+        @media (max-width: 380px) {
+            body.page-recruitment .job-rail .job-tab__title {
+                font-size: 13.5px;
+                line-height: 1.42;
+            }
+        }
+    </style>
     <script src="../js/i18n.js" defer></script>
     <script src="../js/script.js?v=<?php echo time(); ?>" defer></script>
 </head>
